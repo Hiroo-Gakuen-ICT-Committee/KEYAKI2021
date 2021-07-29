@@ -1,0 +1,29 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  padding-top: 30vh;
+  background-color: #000;
+  font-family: sawarabi-gothic, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body h1 {
+  color: #FFF;
+  margin-top: 10vh;
+  font-size: 40px;
+}
+
+body .ml13 {
+  font-size: 1.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-weight: 600;
+}
+
+body .ml13 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+/*# sourceMappingURL=index.css.map */

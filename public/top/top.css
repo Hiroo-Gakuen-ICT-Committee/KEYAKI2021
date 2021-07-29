@@ -1,0 +1,156 @@
+@charset "UTF-8";
+body {
+  width: 100vw;
+  font-family: sawarabi-gothic, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  height: 150px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  /* IE, Edge 対応 */
+  scrollbar-width: none;
+  /* Firefox 対応 */
+}
+
+body::-webkit-scrollbar {
+  /* Chrome, Safari 対応 */
+  display: none;
+}
+
+body .top {
+  overflow: hidden;
+  width: 100vw;
+  background-image: url("/public/top/images/back1.svg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 34vw;
+}
+
+body .top .hero {
+  text-align: center;
+}
+
+body .top .hero .header {
+  height: 100vh;
+  overflow: hidden;
+}
+
+body .top .hero .header .textimage {
+  overflow: hidden;
+}
+
+body .top .hero .header .textimage .text {
+  float: left;
+  margin-top: 23vh;
+  margin-left: 4.5vw;
+  font-size: 6vw;
+  position: relative;
+}
+
+body .top .hero .header .textimage .text .texts {
+  position: absolute;
+  /*絶対配置*/
+  color: white;
+  /*文字は白に*/
+  top: 0;
+  left: 0;
+}
+
+body .top .hero .header .textimage .text .texts .year {
+  color: #dcabab;
+}
+
+body .top .hero .header .textimage .text .texts .keyaki {
+  margin-left: 10vw;
+  color: #dcabab;
+}
+
+body .top .hero .header .textimage .text img {
+  position: top left;
+}
+
+body .top .hero .header .textimage img {
+  float: left;
+  width: 24vw;
+  margin-top: 23vh;
+  margin-left: 21vw;
+}
+
+body .top .hero .header .bottom {
+  overflow: hidden;
+}
+
+body .top .hero .header .bottom .sns {
+  float: left;
+  width: 10vw;
+  height: 10vw;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+body .top .hero .header .bottom .sns svg {
+  width: 10vw;
+  fill: currentColor;
+}
+
+body .top .hero .header .bottom .yazirusi {
+  float: left;
+  font-size: 3.7vw;
+  width: 10vw;
+  height: 10vw;
+  background-color: #000;
+  text-align: center;
+  padding-top: auto;
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: table;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .top .hero .header .bottom .yazirusi p {
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 3.5vw;
+}
+
+body .top .hero .header .bottom .yazirusi ::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: -webkit-transform 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: transform 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: transform 0.7s cubic-bezier(0.19, 1, 0.22, 1), -webkit-transform 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+body .top .hero .header .bottom .yazirusi:hover {
+  background-color: #666;
+}
+
+body .top .hero .header .bottom .yazirusi:hover p {
+  color: #fff;
+}
+
+body .top .hero .day {
+  height: 100vh;
+}
+
+body .top .hero .day h1 {
+  font-size: 80px;
+}
+/*# sourceMappingURL=top.css.map */

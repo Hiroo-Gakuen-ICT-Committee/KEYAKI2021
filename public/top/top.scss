@@ -1,0 +1,157 @@
+body {
+  width: 100vw;
+  font-family: sawarabi-gothic,
+    sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  height: 150px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  /* IE, Edge 対応 */
+  scrollbar-width: none;
+
+  /* Firefox 対応 */
+  &::-webkit-scrollbar {
+    /* Chrome, Safari 対応 */
+    display: none;
+  }
+
+  .top {
+    overflow: hidden;
+    width: 100vw;
+    background-image: url("/public/top/images/back1.svg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 34vw;
+
+
+    .hero {
+      text-align: center;
+
+      .header {
+        height: 100vh;
+        overflow: hidden;
+
+        .textimage {
+          overflow: hidden;
+
+          .text {
+            float: left;
+            margin-top: 23vh;
+            margin-left: 4.5vw;
+            font-size: 6vw;
+            position: relative;
+
+            .texts {
+              position: absolute;
+              /*絶対配置*/
+              color: white;
+              /*文字は白に*/
+              top: 0;
+              left: 0;
+
+              .year {
+                color: #dcabab;
+              }
+
+              .keyaki {
+                margin-left: 10vw;
+                color: #dcabab;
+              }
+
+
+            }
+
+            img {
+              position: top left;
+            }
+
+
+          }
+
+          img {
+            float: left;
+            width: 24vw;
+            margin-top: 23vh;
+            margin-left: 21vw;
+          }
+        }
+
+        .bottom {
+          overflow: hidden;
+
+
+          .sns {
+            float: left;
+            width: 10vw;
+            height: 10vw;
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+
+            svg {
+              width: 10vw;
+              fill: currentColor;
+            }
+
+          }
+
+          .yazirusi {
+            float: left;
+            font-size: 3.7vw;
+            width: 10vw;
+            height: 10vw;
+            background-color: #000;
+            text-align: center;
+            padding-top: auto;
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+
+            display: table;
+            transition: 0.5s;
+
+            p {
+              color: #fff;
+              display: table-cell;
+              vertical-align: middle;
+              font-size: 3.5vw;
+            }
+
+            ::before {
+              content: '';
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              transform: scaleX(0);
+              transform-origin: right;
+              transition: transform .7s cubic-bezier(.19, 1, .22, 1);
+            }
+
+            &:hover {
+              background-color: #666;
+
+              p {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+
+      .day {
+        height: 100vh;
+
+        h1 {
+          font-size: 80px;
+        }
+      }
+    }
+  }
+}
