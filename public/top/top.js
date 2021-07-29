@@ -10,7 +10,7 @@ ScrollReveal().reveal('.text', {
   duration: 1600,
   origin: 'left',
   distance: '50px',
-  reset: true
+  reset: true,
 });
 ScrollReveal().reveal('.textimage img', {
   duration: 1600,
