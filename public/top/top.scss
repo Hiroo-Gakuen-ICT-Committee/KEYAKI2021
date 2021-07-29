@@ -21,10 +21,6 @@ body {
   .top {
     overflow: hidden;
     width: 100vw;
-    background-image: url("/public/top/images/back1.svg");
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: 34vw;
 
 
     .hero {
@@ -45,7 +41,6 @@ body {
             position: relative;
 
             .texts {
-              position: absolute;
               /*絶対配置*/
               color: white;
               /*文字は白に*/
@@ -88,7 +83,7 @@ body {
             position: absolute;
             left: 0;
             bottom: 0;
-
+            z-index: 101;
             svg {
               width: 10vw;
               fill: currentColor;
@@ -108,6 +103,8 @@ body {
             position: absolute;
             right: 0;
             bottom: 0;
+            z-index: 101;
+
 
             display: table;
             transition: 0.5s;
