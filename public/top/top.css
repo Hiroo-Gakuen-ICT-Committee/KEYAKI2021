@@ -67,10 +67,6 @@ body .top .hero .header .textimage .text .texts .keyaki {
   color: #dcabab;
 }
 
-body .top .hero .header .textimage .text img {
-  position: top left;
-}
-
 body .top .hero .header .textimage img {
   float: left;
   width: 24vw;
