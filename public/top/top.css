@@ -149,29 +149,31 @@ body .top .hero .day {
   height: 100vh;
 }
 
-body .top .hero .day .box {
+body .top .hero .day .theme_text .box {
   display: inline-block;
   margin-top: 20vh;
-  margin-right: 60vw;
+  margin-right: 70vw;
 }
 
-body .top .hero .day .box h2 {
+body .top .hero .day .theme_text .box h2 {
   font-size: 4vw;
   display: inline-block;
   padding: 16px;
   color: #4d4d4d;
 }
 
-body .top .hero .day .box h2 span {
+body .top .hero .day .theme_text .box h2 span {
   font-size: 1.5vw;
   margin-left: 1vw;
 }
 
-body .top .hero .day h3 {
+body .top .hero .day .theme_text h3 {
   font-size: 1.5vw;
   display: inline-block;
   width: 40vw;
   height: 20vh;
   line-height: 4.6vh;
+  margin-right: 40vw;
+  margin-top: 3vh;
 }
 /*# sourceMappingURL=top.css.map */

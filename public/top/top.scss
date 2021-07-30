@@ -149,11 +149,11 @@ body {
 
       .day {
         height: 100vh;
-
-        .box{
+        .theme_text{
+          .box{
           display: inline-block;
           margin-top: 20vh;
-            margin-right: 60vw;
+            margin-right: 70vw;
           h2 {
             font-size: 4vw;
             display: inline-block;
@@ -171,6 +171,9 @@ body {
           width: 40vw;
           height: 20vh;
           line-height: 4.6vh;
+          margin-right: 40vw;
+          margin-top: 3vh;
+        }
         }
       }
     }
