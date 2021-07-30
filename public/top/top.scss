@@ -151,20 +151,26 @@ body {
         height: 100vh;
 
         .box{
-          border: solid 3px #4d4d4d;
-          background-color: #4d4d4d;
           display: inline-block;
-          margin-top: 10vh;
-            margin-right: 70vw;
-            padding: 3vw;
+          margin-top: 20vh;
+            margin-right: 60vw;
           h2 {
             font-size: 4vw;
-            border-left: solid 5px #fff;
             display: inline-block;
             padding: 16px;
-            color: #fff;
-            letter-spacing:0.5vw ;
+            color: #4d4d4d;
+            span{
+              font-size: 1.5vw;
+              margin-left: 1vw;
+            }
           }
+        }
+        h3{
+          font-size: 1.5vw;
+          display: inline-block;
+          width: 40vw;
+          height: 20vh;
+          line-height: 4.6vh;
         }
       }
     }
