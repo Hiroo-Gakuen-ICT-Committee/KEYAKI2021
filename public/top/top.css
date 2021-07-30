@@ -149,7 +149,21 @@ body .top .hero .day {
   height: 100vh;
 }
 
-body .top .hero .day h2 {
-  font-size: 50px;
+body .top .hero .day .box {
+  border: solid 3px #4d4d4d;
+  background-color: #4d4d4d;
+  display: inline-block;
+  margin-top: 10vh;
+  margin-right: 70vw;
+  padding: 3vw;
+}
+
+body .top .hero .day .box h2 {
+  font-size: 4vw;
+  border-left: solid 5px #fff;
+  display: inline-block;
+  padding: 16px;
+  color: #fff;
+  letter-spacing: 0.5vw;
 }
 /*# sourceMappingURL=top.css.map */
