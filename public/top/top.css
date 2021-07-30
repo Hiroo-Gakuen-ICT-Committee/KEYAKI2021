@@ -147,12 +147,18 @@ body .top .hero .header .bottom .yazirusi:hover p {
 
 body .top .hero .day {
   height: 100vh;
+  overflow: hidden;
+  text-align: left;
+}
+
+body .top .hero .day .theme_text {
+  float: left;
 }
 
 body .top .hero .day .theme_text .box {
   display: inline-block;
   margin-top: 20vh;
-  margin-right: 70vw;
+  margin-left: 40vw;
 }
 
 body .top .hero .day .theme_text .box h2 {
@@ -167,7 +173,7 @@ body .top .hero .day .theme_text .box h2 span {
   margin-left: 1vw;
 }
 
-body .top .hero .day .theme_text h3 {
+body .top .hero .day .theme_text .box h3 {
   font-size: 1.5vw;
   display: inline-block;
   width: 40vw;
@@ -175,5 +181,10 @@ body .top .hero .day .theme_text h3 {
   line-height: 4.6vh;
   margin-right: 40vw;
   margin-top: 3vh;
+}
+
+body .top .hero .day img {
+  float: left;
+  width: 10vw;
 }
 /*# sourceMappingURL=top.css.map */
