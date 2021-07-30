@@ -33,6 +33,11 @@ body .top .hero .header {
   overflow: hidden;
 }
 
+body .top .hero .header .back {
+  width: 34vw;
+  position: absolute;
+}
+
 body .top .hero .header .textimage {
   overflow: hidden;
 }
@@ -47,7 +52,7 @@ body .top .hero .header .textimage .text {
 
 body .top .hero .header .textimage .text .texts {
   /*絶対配置*/
-  color: white;
+  color: #fff;
   /*文字は白に*/
   top: 0;
   left: 0;

@@ -30,6 +30,11 @@ body {
         height: 100vh;
         overflow: hidden;
 
+        .back {
+          width: 34vw;
+          position: absolute;
+        }
+
         .textimage {
           overflow: hidden;
 
@@ -42,7 +47,7 @@ body {
 
             .texts {
               /*絶対配置*/
-              color: white;
+              color: #fff;
               /*文字は白に*/
               top: 0;
               left: 0;
@@ -84,6 +89,7 @@ body {
             left: 0;
             bottom: 0;
             z-index: 101;
+
             svg {
               width: 10vw;
               fill: currentColor;
