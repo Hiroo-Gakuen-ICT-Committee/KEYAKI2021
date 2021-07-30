@@ -12,6 +12,12 @@ ScrollReveal().reveal('.text', {
   distance: '50px',
   reset: true,
 });
+ScrollReveal().reveal('.back', {
+  duration: 1600,
+  origin: 'left',
+  distance: '50px',
+  reset: true,
+});
 ScrollReveal().reveal('.textimage img', {
   duration: 1600,
   origin: 'right',

@@ -12,6 +12,7 @@ body {
   /* IE, Edge 対応 */
   scrollbar-width: none;
   /* Firefox 対応 */
+  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
@@ -148,7 +149,7 @@ body .top .hero .day {
   height: 100vh;
 }
 
-body .top .hero .day h1 {
-  font-size: 80px;
+body .top .hero .day h2 {
+  font-size: 50px;
 }
 /*# sourceMappingURL=top.css.map */
