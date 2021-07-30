@@ -156,7 +156,7 @@ body {
           .box{
           display: inline-block;
           margin-top: 20vh;
-          margin-left: 40vw;
+          margin-left: 20vw;
           h2 {
             font-size: 4vw;
             display: inline-block;
@@ -167,17 +167,16 @@ body {
               margin-left: 1vw;
             }
           }
-          h3{
-            font-size: 1.5vw;
-            display: inline-block;
-            width: 40vw;
-            height: 20vh;
-            line-height: 4.6vh;
-            margin-right: 40vw;
-            margin-top: 3vh;
-          }
         }
-        
+        h3{
+          font-size: 1.5vw;
+          display: inline-block;
+          width: 40vw;
+          height: 20vh;
+          line-height: 4.6vh;
+          margin-left: 20vw;
+          margin-top: 3vh;
+        }
         }
         img{
           float: left;
