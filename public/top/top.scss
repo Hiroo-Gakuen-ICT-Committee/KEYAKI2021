@@ -149,9 +149,38 @@ body {
 
       .day {
         height: 100vh;
-
-        h2 {
-          font-size: 50px;
+        overflow: hidden;
+        text-align: left;
+        .theme_text{
+          float: left;
+          .box{
+          display: inline-block;
+          margin-top: 20vh;
+          margin-left: 20vw;
+          h2 {
+            font-size: 4vw;
+            display: inline-block;
+            padding: 16px;
+            color: #4d4d4d;
+            span{
+              font-size: 1.5vw;
+              margin-left: 1vw;
+            }
+          }
+        }
+        h3{
+          font-size: 1.5vw;
+          display: inline-block;
+          width: 40vw;
+          height: 20vh;
+          line-height: 4.6vh;
+          margin-left: 20vw;
+          margin-top: 3vh;
+        }
+        }
+        img{
+          float: left;
+          width: 10vw;
         }
       }
     }
