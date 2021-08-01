@@ -148,21 +148,4 @@ body .top .hero .header .bottom .yazirusi:hover p {
 body .top .hero .day {
   height: 100vh;
 }
-
-body .top .hero .day .theme_text .box {
-  display: inline-block;
-  background-color: aqua;
-  padding-left: 3vw;
-  padding-bottom: 4vw;
-  padding-top: 1vw;
-  padding-right: 2vw;
-}
-
-body .top .hero .day .theme_text .box h2 {
-  font-size: 3vw;
-}
-
-body .top .hero .day .theme_text .box h2 span {
-  font-size: 1.4vw;
-}
 /*# sourceMappingURL=top.css.map */
