@@ -149,8 +149,25 @@ body {
 
       .day {
         height: 100vh;
+        overflow: hidden;
+        float: left;
 
+        .videos {
+          text-align: left;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
 
+          .theme_video {
+            width: 38vw;
+          }
+        }
+
+        .texts {
+          height: 100vh;
+          float: left;
+        }
       }
 
 

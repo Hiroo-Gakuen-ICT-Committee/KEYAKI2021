@@ -94,9 +94,10 @@
 
 //背景動画
 
-video {
+.video_header {
   z-index: 1;
-  object-fit: contain;
+  object-fit: cover;
+  height: 100vw;
 }
 
 .overlay {

@@ -103,10 +103,11 @@
   background-size: cover;
 }
 
-video {
+.video_header {
   z-index: 1;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100vw;
 }
 
 .overlay {

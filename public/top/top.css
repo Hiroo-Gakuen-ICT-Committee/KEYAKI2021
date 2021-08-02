@@ -147,5 +147,30 @@ body .top .hero .header .bottom .yazirusi:hover p {
 
 body .top .hero .day {
   height: 100vh;
+  overflow: hidden;
+  float: left;
+}
+
+body .top .hero .day .videos {
+  text-align: left;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .top .hero .day .videos .theme_video {
+  width: 38vw;
+}
+
+body .top .hero .day .texts {
+  height: 100vh;
+  float: left;
 }
 /*# sourceMappingURL=top.css.map */
