@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*menu*/
 .menu {
   height: 20px;
@@ -120,4 +121,6 @@
   z-index: 2;
   overflow: hidden;
 }
+
+/*その他と主な共通部分は省略*/
 /*# sourceMappingURL=top2.css.map */

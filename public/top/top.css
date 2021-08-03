@@ -22,7 +22,6 @@ body::-webkit-scrollbar {
 
 body .top {
   overflow: hidden;
-  width: 100vw;
 }
 
 body .top .hero {
@@ -152,10 +151,10 @@ body .top .hero .theme {
   background-position: center center;
   background-size: 75vh;
   background-attachment: fixed;
+  text-align: right;
 }
 
 body .top .hero .theme .matome {
-  height: 100vh;
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -166,10 +165,12 @@ body .top .hero .theme .matome {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 
 body .top .hero .theme .matome .videos {
   margin-right: 10vw;
+  margin-top: 15vh;
 }
 
 body .top .hero .theme .matome .videos .theme_video {
@@ -179,16 +180,16 @@ body .top .hero .theme .matome .videos .theme_video {
 
 body .top .hero .theme .matome .texts {
   width: 40vw;
+  margin-top: 15vh;
 }
 
 body .top .hero .theme .matome .texts h1 {
   font-size: 3vw;
-  margin-bottom: 2vh;
   text-align: left;
 }
 
 body .top .hero .theme .matome .texts h1 span {
-  color: #dcabab;
+  color: #ed7a9b;
 }
 
 body .top .hero .theme .matome .texts h1 img {
@@ -200,9 +201,29 @@ body .top .hero .theme .matome .texts h1 img {
 
 body .top .hero .theme .matome .texts h2 {
   text-align: left;
-  font-size: 0.9vw;
-  line-height: 4vh;
+  font-size: 1vw;
+  line-height: 2.2vw;
   color: #000;
   padding: 6vh;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-bottom: 3vh;
+}
+
+body .top .hero .theme a {
+  border: solid 4px #000;
+  font-size: 1vw;
+  padding: 0.8vw;
+  background-color: #000;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 6px;
+  color: #fff;
+  margin-right: 15vw;
+}
+
+body .top .hero .theme a:hover {
+  background-color: #fff;
+  color: #000;
 }
 /*# sourceMappingURL=top.css.map */
