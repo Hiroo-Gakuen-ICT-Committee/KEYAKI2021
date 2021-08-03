@@ -1,12 +1,11 @@
 body {
   width: 100vw;
-  font-family: sawarabi-gothic,
+  font-family: source-han-sans-japanese,
     sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   overflow-y: scroll;
   -ms-overflow-style: none;
-  height: 150px;
   overflow-y: scroll;
   -ms-overflow-style: none;
   /* IE, Edge 対応 */
@@ -147,16 +146,189 @@ body {
       }
 
       .theme {
-        height: 100vh;
         background-image: url("./images/back3.svg");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 75vh;
         background-attachment: fixed;
+        padding-top: 10vw;
 
         .matome {
           width: 100vw;
-          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          margin-bottom: 7vw;
+
+          .texts_1 {
+            background-color: #f3f9f3;
+            padding: 2vw;
+            border-radius: 16px;
+            width: 40vw;
+            text-align: right;
+
+
+
+            h1 {
+              font-size: 1.8vw;
+              text-align: left;
+              margin-bottom: 3vh;
+              font-family: source-han-sans-japanese,
+                sans-serif;
+              font-weight: 700;
+              font-style: normal;
+
+              span {
+                color: #ed7a9b;
+              }
+
+              .small {
+                color: #000;
+                font-size: 1.2vw;
+              }
+
+              img {
+                height: 2.5vw;
+                margin-left: 1vw;
+                transform: rotateZ(10deg);
+              }
+            }
+
+            h2 {
+              text-align: left;
+              font-size: 1vw;
+              line-height: 2.2vw;
+              color: #000;
+              padding: 6vh;
+              padding-top: 0px;
+              padding-bottom: 0px;
+              padding-bottom: 3vh;
+            }
+
+            a {
+              font-size: 0.8vw;
+              transition: 0.3s;
+
+              &:hover {
+                color: #666;
+              }
+            }
+          }
+
+          .texts_2 {
+            background-color: #f3f9f3;
+            padding: 2vw;
+            border-radius: 16px;
+            width: 40vw;
+            margin-left: 7vw;
+            text-align: right;
+
+            h1 {
+              font-size: 1.8vw;
+              text-align: left;
+              margin-bottom: 3vh;
+              font-family: source-han-sans-japanese,
+                sans-serif;
+              font-weight: 700;
+              font-style: normal;
+
+              img {
+                height: 2.5vw;
+                margin-left: 1vw;
+              }
+
+              .small {
+                color: #000;
+                font-size: 1.2vw;
+              }
+            }
+
+            h2 {
+              text-align: left;
+              font-size: 1vw;
+              line-height: 2.2vw;
+              color: #000;
+              padding: 6vh;
+              padding-top: 0px;
+              padding-bottom: 0px;
+              padding-bottom: 3vh;
+
+              .day_day {
+                font-size: 0.8vw;
+                color: #216dfb;
+                font-weight: 100;
+                font-family: source-han-sans-japanese,
+                  sans-serif;
+                font-weight: 700;
+                font-style: normal;
+              }
+
+              .day_day_2 {
+                font-size: 0.8vw;
+                color: #216dfb;
+                font-weight: 100;
+                font-family: source-han-sans-japanese,
+                  sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                margin-top: 2vh;
+              }
+
+              span {
+                font-size: 1.3vw;
+                font-weight: 100;
+                font-family: source-han-sans-japanese,
+                  sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                color: #000;
+              }
+
+              .morning {
+                font-family: source-han-sans-japanese,
+                  sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                margin-left: 35px;
+                font-size: 1.3vw;
+                margin-top: 1.5vh;
+
+                span {
+                  margin-left: 2.1vw;
+                  font-size: 1vw;
+                }
+              }
+
+              .Afternoon {
+                font-family: source-han-sans-japanese,
+                  sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                margin-left: 35px;
+                font-size: 1.3vw;
+
+                span {
+                  margin-left: 1vw;
+                  font-size: 1vw;
+                }
+              }
+            }
+
+            a {
+              font-size: 0.8vw;
+              transition: 0.3s;
+
+              &:hover {
+                color: #666;
+              }
+            }
+          }
+
+        }
+
+        .matome_2 {
+          width: 100vw;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -175,16 +347,19 @@ body {
               font-size: 1.8vw;
               text-align: left;
               margin-bottom: 3vh;
-              font-weight: 600;
-
-              span {
-                color: #ed7a9b;
-              }
+              font-family: source-han-sans-japanese,
+                sans-serif;
+              font-weight: 700;
+              font-style: normal;
 
               img {
-                height: 3vw;
+                height: 2.5vw;
                 margin-left: 1vw;
-                transform: rotateZ(10deg);
+              }
+
+              .small {
+                color: #000;
+                font-size: 1.2vw;
               }
             }
 
@@ -200,7 +375,7 @@ body {
             }
 
             a {
-              font-size: 20px;
+              font-size: 0.8vw;
               transition: 0.3s;
 
               &:hover {
@@ -214,18 +389,26 @@ body {
             padding: 2vw;
             border-radius: 16px;
             width: 40vw;
-            margin-left: 10vw;
+            margin-left: 7vw;
             text-align: right;
 
             h1 {
               font-size: 1.8vw;
               text-align: left;
               margin-bottom: 3vh;
-              font-weight: 600;
+              font-family: source-han-sans-japanese,
+                sans-serif;
+              font-weight: 700;
+              font-style: normal;
 
               img {
-                height: 3vw;
+                height: 2.5vw;
                 margin-left: 1vw;
+              }
+
+              .small {
+                color: #000;
+                font-size: 1.2vw;
               }
             }
 
@@ -241,7 +424,7 @@ body {
             }
 
             a {
-              font-size: 20px;
+              font-size: 0.8vw;
               transition: 0.3s;
 
               &:hover {
@@ -251,7 +434,6 @@ body {
           }
 
         }
-
 
 
       }
