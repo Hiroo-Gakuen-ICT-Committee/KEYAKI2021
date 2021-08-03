@@ -257,7 +257,6 @@ body .top .hero .theme .matome .texts_2 h2 {
   padding: 6vh;
   padding-top: 0px;
   padding-bottom: 0px;
-  padding-bottom: 3vh;
 }
 
 body .top .hero .theme .matome .texts_2 h2 .day_day {
@@ -313,6 +312,12 @@ body .top .hero .theme .matome .texts_2 h2 .Afternoon {
 body .top .hero .theme .matome .texts_2 h2 .Afternoon span {
   margin-left: 1vw;
   font-size: 1vw;
+}
+
+body .top .hero .theme .matome .texts_2 h2 .COVID‑19 {
+  font-size: 0.7vw;
+  margin-top: 0.6vh;
+  margin-bottom: 0.3vh;
 }
 
 body .top .hero .theme .matome .texts_2 a {
