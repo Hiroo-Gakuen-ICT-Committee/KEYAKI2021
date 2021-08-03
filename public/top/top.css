@@ -181,18 +181,24 @@ body .top .hero .theme .matome .texts {
 }
 
 body .top .hero .theme .matome .texts h1 {
-  font-size: 4vw;
+  font-size: 3vw;
   margin-bottom: 3vh;
   text-align: left;
-  border-left: solid #000 9px;
-  padding-left: 1vw;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
+}
+
+body .top .hero .theme .matome .texts h1 img {
+  height: 5vw;
+  margin-left: 2vw;
+  -webkit-transform: rotateZ(10deg);
+          transform: rotateZ(10deg);
 }
 
 body .top .hero .theme .matome .texts h2 {
   text-align: left;
-  font-size: 1.3vw;
+  font-size: 0.9vw;
   line-height: 4vh;
+  background-color: #666;
+  color: #FFF;
+  padding: 6vh;
 }
 /*# sourceMappingURL=top.css.map */
