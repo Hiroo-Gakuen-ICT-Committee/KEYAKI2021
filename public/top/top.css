@@ -173,6 +173,7 @@ body .top .hero .theme .matome .texts_1 {
   padding: 2vw;
   border-radius: 16px;
   width: 40vw;
+  text-align: right;
 }
 
 body .top .hero .theme .matome .texts_1 h1 {
@@ -204,12 +205,23 @@ body .top .hero .theme .matome .texts_1 h2 {
   padding-bottom: 3vh;
 }
 
+body .top .hero .theme .matome .texts_1 a {
+  font-size: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body .top .hero .theme .matome .texts_1 a:hover {
+  color: #666;
+}
+
 body .top .hero .theme .matome .texts_2 {
   background-color: #f3f9f3;
   padding: 2vw;
   border-radius: 16px;
   width: 40vw;
   margin-left: 10vw;
+  text-align: right;
 }
 
 body .top .hero .theme .matome .texts_2 h1 {
@@ -233,5 +245,15 @@ body .top .hero .theme .matome .texts_2 h2 {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-bottom: 3vh;
+}
+
+body .top .hero .theme .matome .texts_2 a {
+  font-size: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body .top .hero .theme .matome .texts_2 a:hover {
+  color: #666;
 }
 /*# sourceMappingURL=top.css.map */

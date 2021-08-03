@@ -167,6 +167,7 @@ body {
             padding: 2vw;
             border-radius: 16px;
             width: 40vw;
+            text-align: right;
 
 
 
@@ -198,7 +199,14 @@ body {
               padding-bottom: 3vh;
             }
 
+            a {
+              font-size: 20px;
+              transition: 0.3s;
 
+              &:hover {
+                color: #666;
+              }
+            }
           }
 
           .texts_2 {
@@ -207,8 +215,7 @@ body {
             border-radius: 16px;
             width: 40vw;
             margin-left: 10vw;
-
-
+            text-align: right;
 
             h1 {
               font-size: 1.8vw;
@@ -233,7 +240,14 @@ body {
               padding-bottom: 3vh;
             }
 
+            a {
+              font-size: 20px;
+              transition: 0.3s;
 
+              &:hover {
+                color: #666;
+              }
+            }
           }
 
         }
