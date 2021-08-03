@@ -490,17 +490,18 @@ body .top .hero .theme .matome_2 .texts_2 a:hover {
   color: #666;
 }
 
-body .top .hero .theme .texts_5 {
+body .top .hero .theme .theme_video {
   background-color: #f3f9f3;
   padding: 2vw;
   border-radius: 16px;
   text-align: right;
-  margin-top: 7vw;
+  margin-top: 10vw;
   margin-left: 7vw;
   margin-right: 7vw;
+  text-align: center;
 }
 
-body .top .hero .theme .texts_5 h1 {
+body .top .hero .theme .theme_video h1 {
   font-size: 1.8vw;
   text-align: left;
   margin-bottom: 3vh;
@@ -509,21 +510,60 @@ body .top .hero .theme .texts_5 h1 {
   font-style: normal;
 }
 
-body .top .hero .theme .texts_5 h1 span {
+body .top .hero .theme .theme_video h1 span {
   color: #ed7a9b;
 }
 
-body .top .hero .theme .texts_5 h1 .small {
+body .top .hero .theme .theme_video h1 .small {
   color: #000;
   font-size: 1.2vw;
 }
 
-body .top .hero .theme .texts_5 h1 img {
+body .top .hero .theme .theme_video h1 img {
   height: 2vw;
   margin-left: 1vw;
 }
 
-body .top .hero .theme .texts_5 .man {
+body .top .hero .theme .theme_video .PV {
+  width: 70vw;
+  margin-top: 1vh;
+  margin-bottom: 5vh;
+}
+
+body .top .texts_5 {
+  background-color: #f3f9f3;
+  padding: 2vw;
+  border-radius: 16px;
+  text-align: right;
+  margin-top: 10vw;
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
+
+body .top .texts_5 h1 {
+  font-size: 1.8vw;
+  text-align: left;
+  margin-bottom: 3vh;
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body .top .texts_5 h1 span {
+  color: #ed7a9b;
+}
+
+body .top .texts_5 h1 .small {
+  color: #000;
+  font-size: 1.2vw;
+}
+
+body .top .texts_5 h1 img {
+  height: 2vw;
+  margin-left: 1vw;
+}
+
+body .top .texts_5 .man {
   font-size: 1.5vw;
   font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
@@ -531,11 +571,11 @@ body .top .hero .theme .texts_5 .man {
   margin-top: 15vh;
 }
 
-body .top .hero .theme .texts_5 .koutyou {
+body .top .texts_5 .koutyou {
   margin-top: 8vh;
 }
 
-body .top .hero .theme .texts_5 h2 {
+body .top .texts_5 h2 {
   text-align: left;
   font-size: 1vw;
   line-height: 2.2vw;
@@ -547,13 +587,13 @@ body .top .hero .theme .texts_5 h2 {
   border-left: #009b8e solid 6px;
 }
 
-body .top .hero .theme .texts_5 a {
+body .top .texts_5 a {
   font-size: 0.8vw;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-body .top .hero .theme .texts_5 a:hover {
+body .top .texts_5 a:hover {
   color: #666;
 }
 /*# sourceMappingURL=top.css.map */

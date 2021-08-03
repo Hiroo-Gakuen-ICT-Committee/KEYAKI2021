@@ -48,3 +48,9 @@ ScrollReveal().reveal('.texts_2', {
   distance: '50px',
   reset: true
 });
+ScrollReveal().reveal('.theme_video', {
+  duration: 1600,
+  origin: 'left',
+  distance: '50px',
+  reset: true
+});
