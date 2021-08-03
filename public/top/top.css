@@ -168,7 +168,7 @@ body .top .hero .theme .matome {
 }
 
 body .top .hero .theme .matome .texts_1 {
-  background-color: #f3f9f3;
+  background-color: rgba(243, 249, 243, 0.8);
   padding: 2vw;
   border-radius: 16px;
   width: 40vw;
@@ -223,7 +223,7 @@ body .top .hero .theme .matome .texts_1 a:hover {
 }
 
 body .top .hero .theme .matome .texts_2 {
-  background-color: #f3f9f3;
+  background-color: rgba(243, 249, 243, 0.8);
   padding: 2vw;
   border-radius: 16px;
   width: 40vw;
@@ -348,7 +348,7 @@ body .top .hero .theme .matome_2 {
 }
 
 body .top .hero .theme .matome_2 .texts_1 {
-  background-color: #f3f9f3;
+  background-color: rgba(243, 249, 243, 0.8);
   padding: 2vw;
   border-radius: 16px;
   width: 40vw;
@@ -441,7 +441,7 @@ body .top .hero .theme .matome_2 .texts_1 a:hover {
 }
 
 body .top .hero .theme .matome_2 .texts_2 {
-  background-color: #f3f9f3;
+  background-color: rgba(243, 249, 243, 0.8);
   padding: 2vw;
   border-radius: 16px;
   width: 40vw;
@@ -491,7 +491,7 @@ body .top .hero .theme .matome_2 .texts_2 a:hover {
 }
 
 body .top .hero .theme .theme_video {
-  background-color: #f3f9f3;
+  background-color: rgba(243, 249, 243, 0.8);
   padding: 2vw;
   border-radius: 16px;
   text-align: right;
@@ -531,7 +531,7 @@ body .top .hero .theme .theme_video .PV {
 }
 
 body .top .texts_5 {
-  background-color: #f3f9f3;
+  background-color: rgba(243, 249, 243, 0.8);
   padding: 2vw;
   border-radius: 16px;
   text-align: right;
