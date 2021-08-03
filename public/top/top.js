@@ -30,7 +30,19 @@ ScrollReveal().reveal('.sns', {
   distance: '50px',
   reset: true
 });
-ScrollReveal().reveal('.yazirusi', {
+ScrollReveal().reveal('.texts_5', {
+  duration: 1600,
+  origin: 'right',
+  distance: '50px',
+  reset: true
+});
+ScrollReveal().reveal('.texts_1', {
+  duration: 1600,
+  origin: 'left',
+  distance: '50px',
+  reset: true
+});
+ScrollReveal().reveal('.texts_2', {
   duration: 1600,
   origin: 'right',
   distance: '50px',
