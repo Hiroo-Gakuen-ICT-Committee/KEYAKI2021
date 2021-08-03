@@ -79,7 +79,6 @@ body {
         .bottom {
           overflow: hidden;
 
-
           .sns {
             float: left;
             width: 10vw;
@@ -547,7 +546,6 @@ body {
       margin-left: 7vw;
       margin-right: 7vw;
 
-
       h1 {
         font-size: 1.8vw;
         text-align: left;
@@ -605,8 +603,15 @@ body {
           color: #666;
         }
       }
+
     }
 
+    footer {
+      height: 10vh;
+      padding-top: 7vh;
+      text-align: left;
+
+    }
   }
 
 
