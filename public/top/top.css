@@ -168,41 +168,63 @@ body .top .hero .theme .matome {
   text-align: center;
 }
 
-body .top .hero .theme .matome .videos {
-  margin-right: 6vw;
-}
-
-body .top .hero .theme .matome .videos .theme_video {
-  height: 56vh;
-  border-radius: 6px;
-}
-
-body .top .hero .theme .texts {
+body .top .hero .theme .matome .texts_1 {
   background-color: #f3f9f3;
   padding: 2vw;
   border-radius: 16px;
   width: 40vw;
 }
 
-body .top .hero .theme .texts h1 {
+body .top .hero .theme .matome .texts_1 h1 {
   font-size: 1.8vw;
   text-align: left;
   margin-bottom: 3vh;
   font-weight: 600;
 }
 
-body .top .hero .theme .texts h1 span {
+body .top .hero .theme .matome .texts_1 h1 span {
   color: #ed7a9b;
 }
 
-body .top .hero .theme .texts h1 img {
+body .top .hero .theme .matome .texts_1 h1 img {
   height: 3vw;
   margin-left: 1vw;
   -webkit-transform: rotateZ(10deg);
           transform: rotateZ(10deg);
 }
 
-body .top .hero .theme .texts h2 {
+body .top .hero .theme .matome .texts_1 h2 {
+  text-align: left;
+  font-size: 1vw;
+  line-height: 2.2vw;
+  color: #000;
+  padding: 6vh;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-bottom: 3vh;
+}
+
+body .top .hero .theme .matome .texts_2 {
+  background-color: #f3f9f3;
+  padding: 2vw;
+  border-radius: 16px;
+  width: 40vw;
+  margin-left: 10vw;
+}
+
+body .top .hero .theme .matome .texts_2 h1 {
+  font-size: 1.8vw;
+  text-align: left;
+  margin-bottom: 3vh;
+  font-weight: 600;
+}
+
+body .top .hero .theme .matome .texts_2 h1 img {
+  height: 3vw;
+  margin-left: 1vw;
+}
+
+body .top .hero .theme .matome .texts_2 h2 {
   text-align: left;
   font-size: 1vw;
   line-height: 2.2vw;
