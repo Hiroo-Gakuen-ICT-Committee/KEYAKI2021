@@ -145,13 +145,18 @@ body .top .hero .header .bottom .yazirusi:hover p {
   color: #fff;
 }
 
-body .top .hero .day {
+body .top .hero .theme {
   height: 100vh;
-  overflow: hidden;
+  background-image: url("./images/back3.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 75vh;
+  background-attachment: fixed;
 }
 
-body .top .hero .day .videos {
-  text-align: left;
+body .top .hero .theme .matome {
+  height: 100vh;
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -161,14 +166,33 @@ body .top .hero .day .videos {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  float: left;
 }
 
-body .top .hero .day .videos .theme_video {
-  width: 38vw;
+body .top .hero .theme .matome .videos {
+  margin-right: 10vw;
 }
 
-body .top .hero .day .texts {
-  float: left;
+body .top .hero .theme .matome .videos .theme_video {
+  width: 39vw;
+}
+
+body .top .hero .theme .matome .texts {
+  width: 40vw;
+}
+
+body .top .hero .theme .matome .texts h1 {
+  font-size: 4vw;
+  margin-bottom: 3vh;
+  text-align: left;
+  border-left: solid #000 9px;
+  padding-left: 1vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+body .top .hero .theme .matome .texts h2 {
+  text-align: left;
+  font-size: 1.3vw;
+  line-height: 4vh;
 }
 /*# sourceMappingURL=top.css.map */

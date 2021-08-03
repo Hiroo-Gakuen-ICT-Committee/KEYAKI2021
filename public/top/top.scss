@@ -147,27 +147,49 @@ body {
         }
       }
 
-      .day {
+      .theme {
         height: 100vh;
-        overflow: hidden;
+        background-image: url("./images/back3.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 75vh;
+        background-attachment: fixed;
 
+        .matome {
 
-        .videos {
-          text-align: left;
+          height: 100vh;
+          width: 100vw;
           display: flex;
           justify-content: center;
           align-items: center;
-          float: left;
 
-          .theme_video {
-            width: 38vw;
+          .videos {
+            margin-right: 10vw;
+
+            .theme_video {
+              width: 39vw;
+            }
           }
-        }
 
-        .texts {
-          float: left;
+          .texts {
+            width: 40vw;
 
-          h1 {}
+            h1 {
+              font-size: 4vw;
+              margin-bottom: 3vh;
+              text-align: left;
+              border-left: solid #000 9px;
+              padding-left: 1vw;
+              padding-top: 2vh;
+              padding-bottom: 2vh;
+            }
+
+            h2 {
+              text-align: left;
+              font-size: 1.3vw;
+              line-height: 4vh;
+            }
+          }
         }
       }
 
