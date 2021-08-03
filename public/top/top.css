@@ -209,6 +209,7 @@ body .top .hero .theme .matome .texts_1 h2 {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-bottom: 3vh;
+  border-left: #ed7a9b solid 6px;
 }
 
 body .top .hero .theme .matome .texts_1 a {
@@ -257,6 +258,8 @@ body .top .hero .theme .matome .texts_2 h2 {
   padding: 6vh;
   padding-top: 0px;
   padding-bottom: 0px;
+  padding-left: 70px;
+  border-left: #72a8db solid 6px;
 }
 
 body .top .hero .theme .matome .texts_2 h2 .day_day {
@@ -379,7 +382,52 @@ body .top .hero .theme .matome_2 .texts_1 h2 {
   padding: 6vh;
   padding-top: 0px;
   padding-bottom: 0px;
-  padding-bottom: 3vh;
+  border-left: #a6c3ac solid 6px;
+}
+
+body .top .hero .theme .matome_2 .texts_1 h2 .train {
+  font-size: 1.3vw;
+  font-weight: 100;
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #000;
+  margin-top: 1.3vh;
+}
+
+body .top .hero .theme .matome_2 .texts_1 h2 .train_1 {
+  margin-left: 1vw;
+  font-size: 1vw;
+}
+
+body .top .hero .theme .matome_2 .texts_1 h2 .bus {
+  font-size: 1.3vw;
+  font-weight: 100;
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #000;
+  margin-top: 1.3vh;
+}
+
+body .top .hero .theme .matome_2 .texts_1 h2 .bus_1 {
+  margin-left: 1vw;
+  font-size: 1vw;
+}
+
+body .top .hero .theme .matome_2 .texts_1 h2 .point {
+  font-size: 1.3vw;
+  font-weight: 100;
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #000;
+  margin-top: 1.3vh;
+}
+
+body .top .hero .theme .matome_2 .texts_1 h2 .point_1 {
+  margin-left: 1vw;
+  font-size: 1vw;
 }
 
 body .top .hero .theme .matome_2 .texts_1 a {
@@ -429,6 +477,7 @@ body .top .hero .theme .matome_2 .texts_2 h2 {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-bottom: 3vh;
+  border-left: #f6c375 solid 6px;
 }
 
 body .top .hero .theme .matome_2 .texts_2 a {

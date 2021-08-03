@@ -204,6 +204,7 @@ body {
               padding-top: 0px;
               padding-bottom: 0px;
               padding-bottom: 3vh;
+              border-left: #ed7a9b solid 6px;
             }
 
             a {
@@ -252,6 +253,8 @@ body {
               padding: 6vh;
               padding-top: 0px;
               padding-bottom: 0px;
+              padding-left: 70px;
+              border-left: #72a8db solid 6px;
 
               .day_day {
                 font-size: 0.8vw;
@@ -347,7 +350,6 @@ body {
             text-align: right;
 
 
-
             h1 {
               font-size: 1.8vw;
               text-align: left;
@@ -376,7 +378,57 @@ body {
               padding: 6vh;
               padding-top: 0px;
               padding-bottom: 0px;
-              padding-bottom: 3vh;
+              border-left: #a6c3ac solid 6px;
+
+              .train {
+                font-size: 1.3vw;
+                font-weight: 100;
+                font-family: source-han-sans-japanese,
+                  sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                color: #000;
+                margin-top: 1.3vh;
+
+              }
+
+              .train_1 {
+                margin-left: 1vw;
+                font-size: 1vw;
+              }
+
+              .bus {
+                font-size: 1.3vw;
+                font-weight: 100;
+                font-family: source-han-sans-japanese,
+                  sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                color: #000;
+                margin-top: 1.3vh;
+              }
+
+              .bus_1 {
+                margin-left: 1vw;
+                font-size: 1vw;
+              }
+
+              .point {
+                font-size: 1.3vw;
+                font-weight: 100;
+                font-family: source-han-sans-japanese,
+                  sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                color: #000;
+                margin-top: 1.3vh;
+
+              }
+
+              .point_1 {
+                margin-left: 1vw;
+                font-size: 1vw;
+              }
             }
 
             a {
@@ -426,6 +478,7 @@ body {
               padding-top: 0px;
               padding-bottom: 0px;
               padding-bottom: 3vh;
+              border-left: #f6c375 solid 6px;
             }
 
             a {
