@@ -31,27 +31,28 @@ footer .footer_content .footer_left {
 
 footer .footer_content .footer_left .footer_link_box_1 {
   text-align: left;
+  border-left: #000 solid 3px;
+  border-right: #000 solid 3px;
+  padding: 0.5vw;
+  width: 9vw;
+  margin-left: 1vw;
+}
+
+footer .footer_content .footer_left .footer_link_box_1 .footer_theme {
+  font-size: 1.1vw;
+}
+
+footer .footer_content .footer_left .footer_link_box_1 .footer_theme_2 {
+  font-size: 0.9vw;
 }
 
 footer .footer_content .footer_left .footer_link_box_1 .footer_link {
-  font-size: 0.9vw;
+  font-size: 1vw;
   position: relative;
   text-decoration: none;
   display: block;
-  margin-top: 3vh;
-}
-
-footer .footer_content .footer_pamphlet {
-  text-align: left;
-  margin-left: 2vw;
-}
-
-footer .footer_content .footer_pamphlet .footer_link {
-  font-size: 0.9vw;
-  position: relative;
-  text-decoration: none;
-  display: block;
-  margin-top: 3vh;
+  margin-top: 1.7vh;
+  margin-bottom: 1.7vh;
 }
 
 footer .footer_right {
