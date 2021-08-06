@@ -4,62 +4,9 @@ footer {
   text-align: center;
   margin-left: 7vw;
   margin-right: 7vw;
-  border-radius: 16px;
+  border-radius: 16px 16px 0px 0px;
   background-color: rgba(243, 249, 243, 0.8);
-
-
-  .footer_content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35vh;
-
-    .footer_left {
-      margin-right: 20vw;
-      padding: 2vw;
-      display: flex;
-
-      .footer_link_box_1 {
-        text-align: left;
-        border-left: #000 solid 3px;
-        border-right: #000 solid 3px;
-        padding: 0.5vw;
-        width: 9vw;
-        margin-left: 1vw;
-
-        .footer_theme {
-          font-size: 1.1vw;
-        }
-
-        .footer_theme_2 {
-          font-size: 0.9vw;
-        }
-
-        .footer_link {
-          font-size: 1vw;
-          position: relative;
-          text-decoration: none;
-          display: block;
-          margin-top: 1.7vh;
-          margin-bottom: 1.7vh;
-
-        }
-      }
-    }
-  }
-
-  .footer_right {
-    color: #fff;
-    text-align: center;
-
-    img {
-      width: 14vw;
-    }
-
-    p {
-      color: #000;
-      font-size: 0.9vw;
-      margin-top: 1vh;
-    }
+  .footer_copy{
+    padding: 1vh;
   }
 }
