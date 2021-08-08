@@ -30,6 +30,57 @@ body {
       background-size: 75vh;
       background-attachment: fixed;
       height: 100vh;
+      text-align: center;
+      position: relative;
+      padding-top: 10vh;
+
+      h1 {
+        text-align: center;
+        font-size: 3vw;
+      }
+
+      .snses {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+
+        .sns_box {
+          width: 13vw;
+          text-align: center;
+          background-color: rgba(243, 249, 243, 0.8);
+          border-radius: 16px;
+          height: 35vh;
+          margin: 3.5vw;
+          margin-top: 0px;
+
+          .twitter {
+            text-align: center;
+
+            h3 {
+              font-size: 1vw;
+              margin-top: 3vh;
+            }
+
+            img {
+              height: 7vw;
+              margin-top: 3vh;
+
+            }
+
+            h4 {
+              text-align: left;
+              width: 10vw;
+              margin: auto;
+              margin-top: 3vh;
+              font-size: 0.7vw;
+            }
+          }
+        }
+      }
     }
   }
 }

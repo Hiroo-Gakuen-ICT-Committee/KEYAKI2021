@@ -30,5 +30,62 @@ body .top .hero {
   background-size: 75vh;
   background-attachment: fixed;
   height: 100vh;
+  text-align: center;
+  position: relative;
+  padding-top: 10vh;
+}
+
+body .top .hero h1 {
+  text-align: center;
+  font-size: 3vw;
+}
+
+body .top .hero .snses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+
+body .top .hero .snses .sns_box {
+  width: 13vw;
+  text-align: center;
+  background-color: rgba(243, 249, 243, 0.8);
+  border-radius: 16px;
+  height: 35vh;
+  margin: 3.5vw;
+  margin-top: 0px;
+}
+
+body .top .hero .snses .sns_box .twitter {
+  text-align: center;
+}
+
+body .top .hero .snses .sns_box .twitter h3 {
+  font-size: 1vw;
+  margin-top: 3vh;
+}
+
+body .top .hero .snses .sns_box .twitter img {
+  height: 7vw;
+  margin-top: 3vh;
+}
+
+body .top .hero .snses .sns_box .twitter h4 {
+  text-align: left;
+  width: 10vw;
+  margin: auto;
+  margin-top: 3vh;
+  font-size: 0.7vw;
 }
 /*# sourceMappingURL=sns.css.map */
