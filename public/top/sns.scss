@@ -1,5 +1,13 @@
-.sns {
+.sns_2 {
   margin-top: 17vh;
+  margin-bottom: 10vh;
+  background-color: rgba(243, 249, 243, 0.8);
+  padding: 2vw;
+  border-radius: 16px;
+  text-align: right;
+  margin-top: 10vw;
+  margin-left: 7vw;
+  margin-right: 7vw;
 
   .snses {
     display: flex;
@@ -7,12 +15,12 @@
     align-items: center;
 
     .sns_box {
-      width: 13vw;
+      width: 15vw;
       text-align: center;
-      background-color: rgba(243, 249, 243, 0.8);
       border-radius: 16px;
       margin: 3.5vw;
       margin-top: 0px;
+      margin-bottom: 0px;
 
 
 
@@ -32,7 +40,7 @@
 
         h4 {
           text-align: left;
-          width: 10vw;
+          width: 11vw;
           margin: auto;
           margin-top: 3vh;
           font-size: 0.7vw;
