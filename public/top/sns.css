@@ -1,0 +1,49 @@
+.sns {
+  margin-top: 17vh;
+}
+
+.sns .snses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sns .snses .sns_box {
+  width: 13vw;
+  text-align: center;
+  background-color: rgba(243, 249, 243, 0.8);
+  border-radius: 16px;
+  margin: 3.5vw;
+  margin-top: 0px;
+}
+
+.sns .snses .sns_box .twitter {
+  text-align: center;
+}
+
+.sns .snses .sns_box .twitter h3 {
+  font-size: 1vw;
+  margin-top: 3vh;
+}
+
+.sns .snses .sns_box .twitter img {
+  height: 7vw;
+  margin-top: 3vh;
+}
+
+.sns .snses .sns_box .twitter h4 {
+  text-align: left;
+  width: 10vw;
+  margin: auto;
+  margin-top: 3vh;
+  font-size: 0.7vw;
+  margin-bottom: 5vh;
+  line-height: 1.2vw;
+}
+/*# sourceMappingURL=sns.css.map */
