@@ -5,3 +5,21 @@ $('.menu').on('click', function () {
   //上記のコードはsection追加ごとに付け足す
   $('section').fadeToggle();
 });
+ScrollReveal().reveal('h1', {
+  duration: 1600,
+  origin: 'left',
+  distance: '50px',
+  reset: true,
+});
+ScrollReveal().reveal('h2', {
+  duration: 1600,
+  origin: 'left',
+  distance: '50px',
+  reset: true,
+});
+ScrollReveal().reveal('.download', {
+  duration: 1600,
+  origin: 'left',
+  distance: '50px',
+  reset: true,
+});
