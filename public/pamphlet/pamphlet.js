@@ -15,5 +15,5 @@ function mouseover() {
 }
 
 function mouseout() {
-  download_botan.innerHTML = "Download/10MB";
+  download_botan.innerHTML = "Download";
 }
