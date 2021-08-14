@@ -63,7 +63,7 @@
 }
 
 .gnav__menu__item {
-  margin: 40px 0;
+  margin-bottom: 3vh;
 }
 
 .this {
@@ -74,13 +74,18 @@
   color: #000;
   font-size: 2vw;
   font-weight: bold;
-  padding: 10vh;
   padding-left: 10px;
   text-decoration: none;
   transition: .5s;
   text-align: left;
   transition: all 0.35s ease;
   z-index: 107;
+
+  span {
+    font-size: 1.3vw;
+    margin-left: 2.3vw;
+
+  }
 
 }
 

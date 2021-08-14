@@ -75,7 +75,7 @@
 }
 
 .gnav__menu__item {
-  margin: 40px 0;
+  margin-bottom: 3vh;
 }
 
 .this {
@@ -86,7 +86,6 @@
   color: #000;
   font-size: 2vw;
   font-weight: bold;
-  padding: 10vh;
   padding-left: 10px;
   text-decoration: none;
   -webkit-transition: .5s;
@@ -95,6 +94,11 @@
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
   z-index: 107;
+}
+
+.gnav__menu__item a span {
+  font-size: 1.3vw;
+  margin-left: 2.3vw;
 }
 
 .gnav__menu__item a:hover {
