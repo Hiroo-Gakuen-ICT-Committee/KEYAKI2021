@@ -166,6 +166,8 @@ body {
             border-radius: 16px;
             width: 40vw;
             text-align: right;
+            height: 58vh;
+
 
 
 
@@ -223,6 +225,8 @@ body {
             width: 40vw;
             margin-left: 7vw;
             text-align: right;
+            height: 58vh;
+
 
             h1 {
               font-size: 1.8vw;
@@ -318,7 +322,7 @@ body {
               .COVID‑19 {
                 font-size: 0.7vw;
                 margin-top: 0.6vh;
-                margin-bottom: 0.3vh;
+                margin-bottom: 4.6vh;
               }
             }
 
@@ -326,8 +330,10 @@ body {
               font-size: 0.8vw;
               transition: 0.3s;
 
+
+
               &:hover {
-                color: #666;
+                color: #000;
               }
             }
           }
@@ -347,6 +353,7 @@ body {
             border-radius: 16px;
             width: 40vw;
             text-align: right;
+            height: 58vh;
 
 
             h1 {
@@ -427,6 +434,7 @@ body {
               .point_1 {
                 margin-left: 1vw;
                 font-size: 1vw;
+                margin-bottom: 4.6vh;
               }
             }
 
@@ -447,6 +455,8 @@ body {
             width: 40vw;
             margin-left: 7vw;
             text-align: right;
+            height: 58vh;
+
 
             h1 {
               font-size: 1.8vw;
@@ -637,7 +647,7 @@ body {
             font-style: normal;
 
             span {
-              color: #ed7a9b;
+              color: #3291d0;
             }
 
             .small {
@@ -660,7 +670,7 @@ body {
             padding-top: 0px;
             padding-bottom: 0px;
             padding-bottom: 3vh;
-            border-left: #ed7a9b solid 6px;
+            border-left: #3291d0 solid 6px;
           }
 
           a {
@@ -678,8 +688,9 @@ body {
           padding: 2vw;
           border-radius: 16px;
           width: 40vw;
-          margin-left: 7vw;
           text-align: right;
+          margin-left: 14vh;
+
 
           h1 {
             font-size: 1.8vw;
@@ -690,14 +701,18 @@ body {
             font-weight: 700;
             font-style: normal;
 
-            img {
-              height: 2.5vw;
-              margin-left: 1vw;
+            span {
+              color: #3291d0;
             }
 
             .small {
               color: #000;
               font-size: 1.2vw;
+            }
+
+            img {
+              height: 2.5vw;
+              margin-left: 1vw;
             }
           }
 
@@ -709,74 +724,8 @@ body {
             padding: 6vh;
             padding-top: 0px;
             padding-bottom: 0px;
-            padding-left: 70px;
-            border-left: #72a8db solid 6px;
-
-            .day_day {
-              font-size: 0.8vw;
-              color: #216dfb;
-              font-weight: 100;
-              font-family: source-han-sans-japanese,
-                sans-serif;
-              font-weight: 700;
-              font-style: normal;
-            }
-
-            .day_day_2 {
-              font-size: 0.8vw;
-              color: #216dfb;
-              font-weight: 100;
-              font-family: source-han-sans-japanese,
-                sans-serif;
-              font-weight: 700;
-              font-style: normal;
-              margin-top: 2vh;
-            }
-
-            span {
-              font-size: 1.3vw;
-              font-weight: 100;
-              font-family: source-han-sans-japanese,
-                sans-serif;
-              font-weight: 700;
-              font-style: normal;
-              color: #000;
-            }
-
-            .morning {
-              font-family: source-han-sans-japanese,
-                sans-serif;
-              font-weight: 700;
-              font-style: normal;
-              margin-left: 35px;
-              font-size: 1.3vw;
-              margin-top: 1.5vh;
-
-              span {
-                margin-left: 2.1vw;
-                font-size: 1vw;
-              }
-            }
-
-            .Afternoon {
-              font-family: source-han-sans-japanese,
-                sans-serif;
-              font-weight: 700;
-              font-style: normal;
-              margin-left: 35px;
-              font-size: 1.3vw;
-
-              span {
-                margin-left: 1vw;
-                font-size: 1vw;
-              }
-            }
-
-            .COVID‑19 {
-              font-size: 0.7vw;
-              margin-top: 0.6vh;
-              margin-bottom: 0.3vh;
-            }
+            padding-bottom: 3vh;
+            border-left: #eb952d solid 6px;
           }
 
           a {

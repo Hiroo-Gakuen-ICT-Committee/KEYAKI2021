@@ -173,6 +173,7 @@ body .top .hero .theme .matome .texts_1 {
   border-radius: 16px;
   width: 40vw;
   text-align: right;
+  height: 58vh;
 }
 
 body .top .hero .theme .matome .texts_1 h1 {
@@ -229,6 +230,7 @@ body .top .hero .theme .matome .texts_2 {
   width: 40vw;
   margin-left: 7vw;
   text-align: right;
+  height: 58vh;
 }
 
 body .top .hero .theme .matome .texts_2 h1 {
@@ -320,7 +322,7 @@ body .top .hero .theme .matome .texts_2 h2 .Afternoon span {
 body .top .hero .theme .matome .texts_2 h2 .COVID‑19 {
   font-size: 0.7vw;
   margin-top: 0.6vh;
-  margin-bottom: 0.3vh;
+  margin-bottom: 4.6vh;
 }
 
 body .top .hero .theme .matome .texts_2 a {
@@ -330,7 +332,7 @@ body .top .hero .theme .matome .texts_2 a {
 }
 
 body .top .hero .theme .matome .texts_2 a:hover {
-  color: #666;
+  color: #000;
 }
 
 body .top .hero .theme .matome_2 {
@@ -353,6 +355,7 @@ body .top .hero .theme .matome_2 .texts_1 {
   border-radius: 16px;
   width: 40vw;
   text-align: right;
+  height: 58vh;
 }
 
 body .top .hero .theme .matome_2 .texts_1 h1 {
@@ -428,6 +431,7 @@ body .top .hero .theme .matome_2 .texts_1 h2 .point {
 body .top .hero .theme .matome_2 .texts_1 h2 .point_1 {
   margin-left: 1vw;
   font-size: 1vw;
+  margin-bottom: 4.6vh;
 }
 
 body .top .hero .theme .matome_2 .texts_1 a {
@@ -447,6 +451,7 @@ body .top .hero .theme .matome_2 .texts_2 {
   width: 40vw;
   margin-left: 7vw;
   text-align: right;
+  height: 58vh;
 }
 
 body .top .hero .theme .matome_2 .texts_2 h1 {
@@ -635,7 +640,7 @@ body .top .sns_2 .matome_3 .texts_1 h1 {
 }
 
 body .top .sns_2 .matome_3 .texts_1 h1 span {
-  color: #ed7a9b;
+  color: #3291d0;
 }
 
 body .top .sns_2 .matome_3 .texts_1 h1 .small {
@@ -657,7 +662,7 @@ body .top .sns_2 .matome_3 .texts_1 h2 {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-bottom: 3vh;
-  border-left: #ed7a9b solid 6px;
+  border-left: #3291d0 solid 6px;
 }
 
 body .top .sns_2 .matome_3 .texts_1 a {
@@ -675,8 +680,8 @@ body .top .sns_2 .matome_3 .texts_2 {
   padding: 2vw;
   border-radius: 16px;
   width: 40vw;
-  margin-left: 7vw;
   text-align: right;
+  margin-left: 14vh;
 }
 
 body .top .sns_2 .matome_3 .texts_2 h1 {
@@ -688,14 +693,18 @@ body .top .sns_2 .matome_3 .texts_2 h1 {
   font-style: normal;
 }
 
-body .top .sns_2 .matome_3 .texts_2 h1 img {
-  height: 2.5vw;
-  margin-left: 1vw;
+body .top .sns_2 .matome_3 .texts_2 h1 span {
+  color: #3291d0;
 }
 
 body .top .sns_2 .matome_3 .texts_2 h1 .small {
   color: #000;
   font-size: 1.2vw;
+}
+
+body .top .sns_2 .matome_3 .texts_2 h1 img {
+  height: 2.5vw;
+  margin-left: 1vw;
 }
 
 body .top .sns_2 .matome_3 .texts_2 h2 {
@@ -706,69 +715,8 @@ body .top .sns_2 .matome_3 .texts_2 h2 {
   padding: 6vh;
   padding-top: 0px;
   padding-bottom: 0px;
-  padding-left: 70px;
-  border-left: #72a8db solid 6px;
-}
-
-body .top .sns_2 .matome_3 .texts_2 h2 .day_day {
-  font-size: 0.8vw;
-  color: #216dfb;
-  font-weight: 100;
-  font-family: source-han-sans-japanese, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-body .top .sns_2 .matome_3 .texts_2 h2 .day_day_2 {
-  font-size: 0.8vw;
-  color: #216dfb;
-  font-weight: 100;
-  font-family: source-han-sans-japanese, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  margin-top: 2vh;
-}
-
-body .top .sns_2 .matome_3 .texts_2 h2 span {
-  font-size: 1.3vw;
-  font-weight: 100;
-  font-family: source-han-sans-japanese, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #000;
-}
-
-body .top .sns_2 .matome_3 .texts_2 h2 .morning {
-  font-family: source-han-sans-japanese, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  margin-left: 35px;
-  font-size: 1.3vw;
-  margin-top: 1.5vh;
-}
-
-body .top .sns_2 .matome_3 .texts_2 h2 .morning span {
-  margin-left: 2.1vw;
-  font-size: 1vw;
-}
-
-body .top .sns_2 .matome_3 .texts_2 h2 .Afternoon {
-  font-family: source-han-sans-japanese, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  margin-left: 35px;
-  font-size: 1.3vw;
-}
-
-body .top .sns_2 .matome_3 .texts_2 h2 .Afternoon span {
-  margin-left: 1vw;
-  font-size: 1vw;
-}
-
-body .top .sns_2 .matome_3 .texts_2 h2 .COVID‑19 {
-  font-size: 0.7vw;
-  margin-top: 0.6vh;
-  margin-bottom: 0.3vh;
+  padding-bottom: 3vh;
+  border-left: #eb952d solid 6px;
 }
 
 body .top .sns_2 .matome_3 .texts_2 a {

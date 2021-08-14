@@ -55,3 +55,15 @@ ScrollReveal().reveal('.theme_video', {
   distance: '50px',
   reset: true
 });
+ScrollReveal().reveal('.twitter', {
+  duration: 1600,
+  origin: 'left',
+  distance: '50px',
+  reset: true
+});
+ScrollReveal().reveal('.instagram', {
+  duration: 1600,
+  origin: 'right',
+  distance: '50px',
+  reset: true
+});
