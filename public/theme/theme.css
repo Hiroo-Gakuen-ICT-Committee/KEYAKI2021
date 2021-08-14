@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 }
 
 body .top .hero {
-  height: 300vh;
+  height: 200vh;
   background-image: url("/public/images/back3.svg");
   background-repeat: no-repeat;
   background-position: center center;
