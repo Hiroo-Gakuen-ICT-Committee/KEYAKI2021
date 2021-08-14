@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>広尾学園けやき祭2021</title>
+  <!--以下CSS読み込み-->
+  <link rel="stylesheet" href="public/rese.css">
+  <link rel="stylesheet" href="public/time/time2.css">
+  <link rel="stylesheet" href="public/time/time.css">
+
+  <link rel="stylesheet" href="public/footer.css">
+
+  <!--以下Js読み込み-->
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script>
+    (function (d) {
+      var config = {
+          kitId: 'srf8hug',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h = d.documentElement,
+        t = setTimeout(function () {
+          h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+        }, config.scriptTimeout),
+        tk = d.createElement("script"),
+        f = false,
+        s = d.getElementsByTagName("script")[0],
+        a;
+      h.className += " wf-loading";
+      tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+      tk.async = true;
+      tk.onload = tk.onreadystatechange = function () {
+        a = this.readyState;
+        if (f || a && a != "complete" && a != "loaded") return;
+        f = true;
+        clearTimeout(t);
+        try {
+          Typekit.load(config)
+        } catch (e) {}
+      };
+      s.parentNode.insertBefore(tk, s)
+    })(document);
+  </script>
+  <!--ファビコン設定-->
+  <link rel="icon" type="image/x-icon" href="public/images/hg.svg">
+</head>
+
+<body>
+  <div class="top">
+
+    <a class="menu">
+      <span class="menu__line menu__line--top"></span>
+      <span class="menu__line menu__line--center"></span>
+      <span class="menu__line menu__line--bottom"></span>
+    </a>
+    <nav class="gnav">
+      <div class="gnav__wrap">
+        <ul class="gnav__menu">
+          <li class="gnav__menu__item"><a href="/top.html">ホーム</a></li>
+          <li class="gnav__menu__item"><a href="/theme.html">テーマについて</a></li>
+          <li class="gnav__menu__item"><a href="/pamphlet.html">パンフレット</a></li>
+          <li class="gnav__menu__item this"><a href="/time.html">タイムスケージュール</a></li>
+          <li class="gnav__menu__item"><a href="">校内地図</a></li>
+          <li class="gnav__menu__item"><a href="">団体紹介</a></li>
+          <li class="gnav__menu__item"><a href="">運営紹介</a></li>
+          <li class="gnav__menu__item"><a href="">校内案内</a></li>
+          <li class="gnav__menu__item"><a href="">保護者用ページ</a></li>
+
+
+        </ul>
+        <!--gnav-wrap-->
+    </nav>
+    <div class="hero">
+      <h1>パンフレット</h1>
+      <h2>データ版パンフレットをダウンロードいただけます。</h2>
+      <h2>※個人利用・商用を問わず、再配布及び本文化祭以外での目的の利用はご遠慮ください。</h2>
+      <div class="download">
+        <img src="public/pamphlet/images/images1.jpg" alt="">
+        <a href="public/pamphlet/images/2.pdf" download="pamphlet.pdf" id="download_botan" onmouseover="mouseover();" onmouseout="mouseout();">Download</a>
+      </div>
+
+    </div>
+
+  </div>
+
+  </div>
+
+  <script src="public/time/time.js"></script>
+  <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+</body>
+
+</html>
