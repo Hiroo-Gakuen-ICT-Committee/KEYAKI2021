@@ -160,9 +160,9 @@ body .top .hero .theme .matome {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   text-align: center;
   margin-bottom: 7vw;
 }
@@ -173,7 +173,7 @@ body .top .hero .theme .matome .texts_1 {
   border-radius: 16px;
   width: 40vw;
   text-align: right;
-  height: 58vh;
+  height: calc(100% - 300px);
 }
 
 body .top .hero .theme .matome .texts_1 h1 {
@@ -210,7 +210,7 @@ body .top .hero .theme .matome .texts_1 h2 {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-bottom: 3vh;
-  border-left: #ed7a9b solid 6px;
+  border-left: #ed7a9b solid 0.4vw;
 }
 
 body .top .hero .theme .matome .texts_1 a {
@@ -230,7 +230,7 @@ body .top .hero .theme .matome .texts_2 {
   width: 40vw;
   margin-left: 7vw;
   text-align: right;
-  height: 58vh;
+  height: calc(100% - 300px);
 }
 
 body .top .hero .theme .matome .texts_2 h1 {
@@ -261,7 +261,7 @@ body .top .hero .theme .matome .texts_2 h2 {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 70px;
-  border-left: #72a8db solid 6px;
+  border-left: #72a8db solid 0.4vw;
 }
 
 body .top .hero .theme .matome .texts_2 h2 .day_day {
@@ -322,7 +322,7 @@ body .top .hero .theme .matome .texts_2 h2 .Afternoon span {
 body .top .hero .theme .matome .texts_2 h2 .COVID‑19 {
   font-size: 0.7vw;
   margin-top: 0.6vh;
-  margin-bottom: 4.6vh;
+  margin-bottom: 0.3vh;
 }
 
 body .top .hero .theme .matome .texts_2 a {
@@ -332,7 +332,7 @@ body .top .hero .theme .matome .texts_2 a {
 }
 
 body .top .hero .theme .matome .texts_2 a:hover {
-  color: #000;
+  color: #666;
 }
 
 body .top .hero .theme .matome_2 {
@@ -343,9 +343,9 @@ body .top .hero .theme .matome_2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   text-align: center;
 }
 
@@ -355,7 +355,7 @@ body .top .hero .theme .matome_2 .texts_1 {
   border-radius: 16px;
   width: 40vw;
   text-align: right;
-  height: 58vh;
+  height: calc(100% - 300px);
 }
 
 body .top .hero .theme .matome_2 .texts_1 h1 {
@@ -385,7 +385,8 @@ body .top .hero .theme .matome_2 .texts_1 h2 {
   padding: 6vh;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-left: #a6c3ac solid 6px;
+  border-left: #a6c3ac solid 0.4vw;
+  margin-bottom: 4.6vh;
 }
 
 body .top .hero .theme .matome_2 .texts_1 h2 .train {
@@ -431,7 +432,6 @@ body .top .hero .theme .matome_2 .texts_1 h2 .point {
 body .top .hero .theme .matome_2 .texts_1 h2 .point_1 {
   margin-left: 1vw;
   font-size: 1vw;
-  margin-bottom: 4.6vh;
 }
 
 body .top .hero .theme .matome_2 .texts_1 a {
@@ -451,7 +451,7 @@ body .top .hero .theme .matome_2 .texts_2 {
   width: 40vw;
   margin-left: 7vw;
   text-align: right;
-  height: 58vh;
+  height: calc(100% - 300px);
 }
 
 body .top .hero .theme .matome_2 .texts_2 h1 {
@@ -482,7 +482,7 @@ body .top .hero .theme .matome_2 .texts_2 h2 {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-bottom: 3vh;
-  border-left: #f6c375 solid 6px;
+  border-left: #f6c375 solid 0.4vw;
 }
 
 body .top .hero .theme .matome_2 .texts_2 a {
@@ -590,7 +590,7 @@ body .top .texts_5 h2 {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-bottom: 3vh;
-  border-left: #009b8e solid 6px;
+  border-left: #009b8e solid 0.4vw;
 }
 
 body .top .texts_5 a {
@@ -615,9 +615,9 @@ body .top .sns_2 .matome_3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   text-align: center;
   margin-bottom: 7vw;
 }
@@ -628,6 +628,7 @@ body .top .sns_2 .matome_3 .texts_1 {
   border-radius: 16px;
   width: 40vw;
   text-align: right;
+  height: calc(100% - 300px);
 }
 
 body .top .sns_2 .matome_3 .texts_1 h1 {
@@ -662,7 +663,7 @@ body .top .sns_2 .matome_3 .texts_1 h2 {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-bottom: 3vh;
-  border-left: #3291d0 solid 6px;
+  border-left: #3291d0 solid 0.4vw;
 }
 
 body .top .sns_2 .matome_3 .texts_1 a {
@@ -681,7 +682,8 @@ body .top .sns_2 .matome_3 .texts_2 {
   border-radius: 16px;
   width: 40vw;
   text-align: right;
-  margin-left: 14vh;
+  margin-left: 7vw;
+  height: calc(100% - 300px);
 }
 
 body .top .sns_2 .matome_3 .texts_2 h1 {
@@ -716,7 +718,7 @@ body .top .sns_2 .matome_3 .texts_2 h2 {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-bottom: 3vh;
-  border-left: #eb952d solid 6px;
+  border-left: #eb952d solid 0.4vw;
 }
 
 body .top .sns_2 .matome_3 .texts_2 a {

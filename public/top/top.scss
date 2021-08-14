@@ -156,7 +156,7 @@ body {
           width: 100vw;
           display: flex;
           justify-content: center;
-          align-items: center;
+          align-items: start;
           text-align: center;
           margin-bottom: 7vw;
 
@@ -166,7 +166,7 @@ body {
             border-radius: 16px;
             width: 40vw;
             text-align: right;
-            height: 58vh;
+            height: calc(100% - 300px);
 
 
 
@@ -205,7 +205,7 @@ body {
               padding-top: 0px;
               padding-bottom: 0px;
               padding-bottom: 3vh;
-              border-left: #ed7a9b solid 6px;
+              border-left: #ed7a9b solid 0.4vw;
             }
 
             a {
@@ -225,7 +225,7 @@ body {
             width: 40vw;
             margin-left: 7vw;
             text-align: right;
-            height: 58vh;
+            height: calc(100% - 300px);
 
 
             h1 {
@@ -257,7 +257,7 @@ body {
               padding-top: 0px;
               padding-bottom: 0px;
               padding-left: 70px;
-              border-left: #72a8db solid 6px;
+              border-left: #72a8db solid 0.4vw;
 
               .day_day {
                 font-size: 0.8vw;
@@ -322,7 +322,7 @@ body {
               .COVID‑19 {
                 font-size: 0.7vw;
                 margin-top: 0.6vh;
-                margin-bottom: 4.6vh;
+                margin-bottom: 0.3vh;
               }
             }
 
@@ -330,10 +330,8 @@ body {
               font-size: 0.8vw;
               transition: 0.3s;
 
-
-
               &:hover {
-                color: #000;
+                color: #666;
               }
             }
           }
@@ -344,7 +342,7 @@ body {
           width: 100vw;
           display: flex;
           justify-content: center;
-          align-items: center;
+          align-items: start;
           text-align: center;
 
           .texts_1 {
@@ -353,7 +351,8 @@ body {
             border-radius: 16px;
             width: 40vw;
             text-align: right;
-            height: 58vh;
+
+            height: calc(100% - 300px);
 
 
             h1 {
@@ -384,7 +383,8 @@ body {
               padding: 6vh;
               padding-top: 0px;
               padding-bottom: 0px;
-              border-left: #a6c3ac solid 6px;
+              border-left: #a6c3ac solid 0.4vw;
+              margin-bottom: 4.6vh;
 
               .train {
                 font-size: 1.3vw;
@@ -434,7 +434,8 @@ body {
               .point_1 {
                 margin-left: 1vw;
                 font-size: 1vw;
-                margin-bottom: 4.6vh;
+
+
               }
             }
 
@@ -455,7 +456,7 @@ body {
             width: 40vw;
             margin-left: 7vw;
             text-align: right;
-            height: 58vh;
+            height: calc(100% - 300px);
 
 
             h1 {
@@ -487,7 +488,7 @@ body {
               padding-top: 0px;
               padding-bottom: 0px;
               padding-bottom: 3vh;
-              border-left: #f6c375 solid 6px;
+              border-left: #f6c375 solid 0.4vw;
             }
 
             a {
@@ -603,7 +604,7 @@ body {
         padding-top: 0px;
         padding-bottom: 0px;
         padding-bottom: 3vh;
-        border-left: #009b8e solid 6px;
+        border-left: #009b8e solid 0.4vw;
       }
 
       a {
@@ -624,7 +625,7 @@ body {
         width: 100vw;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: start;
         text-align: center;
         margin-bottom: 7vw;
 
@@ -634,6 +635,7 @@ body {
           border-radius: 16px;
           width: 40vw;
           text-align: right;
+          height: calc(100% - 300px);
 
 
 
@@ -670,7 +672,7 @@ body {
             padding-top: 0px;
             padding-bottom: 0px;
             padding-bottom: 3vh;
-            border-left: #3291d0 solid 6px;
+            border-left: #3291d0 solid 0.4vw;
           }
 
           a {
@@ -689,7 +691,8 @@ body {
           border-radius: 16px;
           width: 40vw;
           text-align: right;
-          margin-left: 14vh;
+          margin-left: 7vw;
+          height: calc(100% - 300px);
 
 
           h1 {
@@ -725,7 +728,7 @@ body {
             padding-top: 0px;
             padding-bottom: 0px;
             padding-bottom: 3vh;
-            border-left: #eb952d solid 6px;
+            border-left: #eb952d solid 0.4vw;
           }
 
           a {
