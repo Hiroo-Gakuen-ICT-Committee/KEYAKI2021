@@ -30,8 +30,50 @@ body {
       z-index: 100;
       padding-top: 20vh;
 
+      h1 {
+        font-size: 3.5vw;
+        margin-left: 23vw;
+        font-family: source-han-sans-japanese,
+          sans-serif;
+        font-weight: 700;
+      }
+
+      h2 {
+        margin-left: 23.5vw;
+        margin-top: 4vh;
+        color: #676767;
+        font-size: 0.8vw;
+        line-height: 0.3vw;
+      }
+
+      .download {
+        margin-top: 10vh;
+        text-align: center;
+
+
+        img {
+          width: 17vw;
+          text-align: center;
+        }
+
+        a {
+          display: block;
+          height: 10vh;
+          width: 50vh;
+          background-color: #000;
+          margin-left: auto;
+          margin-right: auto;
+          color: #FFF;
+          font-family: source-han-sans-japanese,
+            sans-serif;
+          font-weight: 400;
+          margin-top: 7vh;
+        }
+      }
+
+
     }
+
+
   }
-
-
 }
