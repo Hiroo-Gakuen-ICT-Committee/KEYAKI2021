@@ -44,34 +44,4 @@ body .top .hero h2 {
   font-size: 0.8vw;
   line-height: 0.3vw;
 }
-
-body .top .hero .download {
-  margin-top: 7vh;
-  text-align: center;
-}
-
-body .top .hero .download img {
-  width: 15vw;
-  text-align: center;
-}
-
-body .top .hero .download a {
-  display: block;
-  width: 57vh;
-  background-color: #000;
-  margin-left: auto;
-  margin-right: auto;
-  color: #FFF;
-  font-family: source-han-sans-japanese, sans-serif;
-  font-weight: 400;
-  margin-top: 7vh;
-  padding: 3vh;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-body .top .hero .download a:hover {
-  background-color: #f6c375;
-  color: #000;
-}
 /*# sourceMappingURL=time.css.map */

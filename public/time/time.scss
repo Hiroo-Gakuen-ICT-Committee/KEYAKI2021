@@ -46,36 +46,7 @@ body {
         line-height: 0.3vw;
       }
 
-      .download {
-        margin-top: 7vh;
-        text-align: center;
 
-
-        img {
-          width: 15vw;
-          text-align: center;
-        }
-
-        a {
-          display: block;
-          width: 57vh;
-          background-color: #000;
-          margin-left: auto;
-          margin-right: auto;
-          color: #FFF;
-          font-family: source-han-sans-japanese,
-            sans-serif;
-          font-weight: 400;
-          margin-top: 7vh;
-          padding: 3vh;
-          transition: 0.6s;
-
-          &:hover {
-            background-color: #f6c375;
-            color: #000;
-          }
-        }
-      }
 
 
     }
