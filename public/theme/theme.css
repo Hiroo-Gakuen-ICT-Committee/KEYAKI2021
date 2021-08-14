@@ -43,4 +43,50 @@ body .top .hero h2 {
   color: #676767;
   font-size: 0.8vw;
 }
+
+body .top .hero .imi h2 {
+  color: #000;
+  font-size: 1.7vw;
+  margin-top: 7vh;
+  border-left: #ed7a9b solid 0.3vw;
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 700;
+}
+
+body .top .hero .imi h3 {
+  margin-left: 23vw;
+  margin-right: 23vw;
+  margin-top: 3vh;
+  font-size: 0.9vw;
+  line-height: 2vw;
+}
+
+body .top .hero .item {
+  text-align: center;
+}
+
+body .top .hero .item h2 {
+  color: #000;
+  font-size: 1.7vw;
+  margin-top: 13vh;
+  border-left: #ed7a9b solid 0.3vw;
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 700;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+body .top .hero .item h3 {
+  margin-left: 23vw;
+  margin-right: 23vw;
+  margin-top: 3vh;
+  font-size: 0.9vw;
+  line-height: 2vw;
+  padding-bottom: 13vh;
+}
+
+body .top .hero .item img {
+  width: 50vw;
+}
 /*# sourceMappingURL=theme.css.map */
