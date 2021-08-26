@@ -1,9 +1,7 @@
 @charset "UTF-8";
-
 body {
   width: 100vw;
-  font-family: source-han-sans-japanese,
-    sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 400;
   font-style: normal;
   overflow-y: scroll;
@@ -35,8 +33,7 @@ body .top .hero {
 body .top .hero h1 {
   font-size: 3.5vw;
   margin-left: 23vw;
-  font-family: source-han-sans-japanese,
-    sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
 }
 
@@ -47,5 +44,4 @@ body .top .hero h2 {
   font-size: 0.8vw;
   line-height: 0.3vw;
 }
-
 /*# sourceMappingURL=time.css.map */
