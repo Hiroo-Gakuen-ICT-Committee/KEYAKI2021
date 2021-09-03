@@ -5,9 +5,15 @@ $('.menu').on('click', function () {
   //上記のコードはsection追加ごとに付け足す
   $('section').fadeToggle();
 });
-ScrollReveal().reveal('.texts_1', {
+ScrollReveal().reveal('.left', {
   duration: 1600,
   origin: 'left',
+  distance: '50px',
+  reset: true
+});
+ScrollReveal().reveal('.right', {
+  duration: 1600,
+  origin: 'right',
   distance: '50px',
   reset: true
 });
