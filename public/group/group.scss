@@ -43,6 +43,7 @@ body {
         color: #676767;
         font-size: 0.8vw;
         line-height: 0.3vw;
+        margin-bottom:2vh;
       }
       .all{
         width: 100vw;
@@ -52,6 +53,7 @@ body {
           align-items: start;
           text-align: center;
           flex-wrap: wrap;
+ 
         .texts_1 {
           background-color: rgba(243, 249, 243, 0.8);
           padding: 2vw;
@@ -59,11 +61,11 @@ body {
           border-radius: 16px;
           width: 37vw;
           text-align: right;
-          height: calc(100% - 300px);
-          margin: 3.5vw;
+          height: calc(75vh - 300px);
+          margin: 2vw;
 
-          margin-top: 10vh;
-          margin-bottom: 10vh;
+          margin-top: 4vh;
+          margin-bottom: 4vh;
           
           h1 {
             font-size: 1.6vw;
@@ -127,6 +129,15 @@ body {
 
             &:hover {
               color: #666;
+            }
+          }
+        }
+        .english{
+          .text_img{
+            margin: 0px;
+            h2{
+              font-size: 0.8vw;
+              line-height: 1.3vw;
             }
           }
         }
