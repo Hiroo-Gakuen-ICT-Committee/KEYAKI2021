@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 }
 
 body .top .hero {
-  background-image: url("/public/images/back3.svg");
+  background-image: url("public/images/back3.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 75vh;
@@ -70,7 +70,11 @@ body .top .hero .all .texts_1 {
   border-radius: 16px;
   width: 37vw;
   text-align: right;
+<<<<<<< HEAD
   height: calc(68vh - 300px);
+=======
+  min-height: calc(35vh);
+>>>>>>> 5907b19dce5b341a2bdd74ec0439f52cb977f9f0
   margin: 2vw;
   margin-top: 4vh;
   margin-bottom: 4vh;
@@ -96,7 +100,7 @@ body .top .hero .all .texts_1 h1 .small {
 }
 
 body .top .hero .all .texts_1 h1 img {
-  height: 3.3vw;
+  height: 2.5vw;
   margin-left: 1vw;
 }
 
@@ -117,7 +121,7 @@ body .top .hero .all .texts_1 .text_img {
 body .top .hero .all .texts_1 .text_img h2 {
   text-align: left;
   font-size: 1vw;
-  line-height: 2.2vw;
+  line-height: 4vh;
   color: #000;
   padding: 0px;
   padding-left: 1vw;
@@ -130,7 +134,7 @@ body .top .hero .all .texts_1 .text_img h2 {
 }
 
 body .top .hero .all .texts_1 .text_img img {
-  width: 7vw;
+  width: 12vh;
   margin-top: 5vh;
   margin-left: 1vw;
   margin-right: 3vw;
@@ -153,7 +157,7 @@ body .top .hero .all .english .text_img {
 
 body .top .hero .all .english .text_img h2 {
   font-size: 0.8vw;
-  line-height: 1.3vw;
+  line-height: 2.4vh;
 }
 
 body .top .hero .all .english2 .text_img {
@@ -162,6 +166,6 @@ body .top .hero .all .english2 .text_img {
 
 body .top .hero .all .english2 .text_img h2 {
   font-size: 0.8vw;
-  line-height: 1.5vw;
+  line-height: 2.8vh;
 }
 /*# sourceMappingURL=group.css.map */

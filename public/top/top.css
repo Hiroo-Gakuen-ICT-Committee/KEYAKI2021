@@ -144,7 +144,7 @@ body .top .hero .header .bottom .yazirusi:hover p {
 }
 
 body .top .hero .theme {
-  background-image: url("/public/images/back3.svg");
+  background-image: url("public/images/back3.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 75vh;
