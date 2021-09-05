@@ -1,7 +1,8 @@
 @charset "UTF-8";
 body {
   width: 100vw;
-  font-family: source-han-sans-japanese, sans-serif;
+  font-family: source-han-sans-japanese,
+ sans-serif;
   font-weight: 400;
   font-style: normal;
   overflow-y: scroll;
@@ -20,7 +21,7 @@ body::-webkit-scrollbar {
 }
 
 body .top .hero {
-  height: 130vh;
+  height: 130vh;public
   background-image: url("/public/images/back3.svg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -33,7 +34,8 @@ body .top .hero {
 body .top .hero h1 {
   font-size: 3.5vw;
   margin-left: 23vw;
-  font-family: source-han-sans-japanese, sans-serif;
+  font-family: source-han-sans-japanese,
+ sans-serif;
   font-weight: 700;
 }
 
@@ -62,7 +64,8 @@ body .top .hero .download a {
   margin-left: auto;
   margin-right: auto;
   color: #FFF;
-  font-family: source-han-sans-japanese, sans-serif;
+  font-family: source-han-sans-japanese,
+ sans-serif;
   font-weight: 400;
   margin-top: 7vh;
   padding: 3vh;
