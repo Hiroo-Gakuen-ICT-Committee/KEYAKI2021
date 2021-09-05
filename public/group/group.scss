@@ -61,7 +61,7 @@ body {
           border-radius: 16px;
           width: 37vw;
           text-align: right;
-          height: calc(75vh - 300px);
+          min-height: calc(35vh);
           margin: 2vw;
 
           margin-top: 4vh;
@@ -89,7 +89,7 @@ body {
             }
 
             img {
-              height: 3.3vw;
+              height: 2.5vw;
               margin-left: 1vw;
             }
           }
@@ -104,7 +104,7 @@ body {
             h2 {
               text-align: left;
               font-size: 1vw;
-              line-height: 2.2vw;
+              line-height: 4vh;
               color: #000;
               padding:0px;
               padding-left: 1vw;
@@ -116,7 +116,7 @@ body {
             margin-right: 2vw;
             }
             img{
-              width: 7vw;
+              width: 12vh;
               margin-top: 5vh;
               margin-left: 1vw;
               margin-right: 3vw;
@@ -138,7 +138,7 @@ body {
             margin: 0px;
             h2{
               font-size: 0.8vw;
-              line-height: 1.3vw;
+              line-height: 2.4vh;
             }
           }
         }
@@ -147,7 +147,7 @@ body {
             margin: 0px;
             h2{
               font-size: 0.8vw;
-              line-height: 1.5vw;
+              line-height: 2.8vh;
             }
           }
         }
