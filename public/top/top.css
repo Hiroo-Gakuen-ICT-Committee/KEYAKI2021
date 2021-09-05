@@ -1,8 +1,7 @@
 @charset "UTF-8";
 body {
   width: 100vw;
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 400;
   font-style: normal;
   overflow-y: scroll;
@@ -144,8 +143,8 @@ body .top .hero .header .bottom .yazirusi:hover p {
   color: #fff;
 }
 
-body .top .hero .theme {public
-  background-image: url("/public/images/back3.svg");
+body .top .hero .theme {
+  background-image: url("public/images/back3.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 75vh;
@@ -181,8 +180,7 @@ body .top .hero .theme .matome .texts_1 h1 {
   font-size: 1.8vw;
   text-align: left;
   margin-bottom: 3vh;
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -239,8 +237,7 @@ body .top .hero .theme .matome .texts_2 h1 {
   font-size: 1.8vw;
   text-align: left;
   margin-bottom: 3vh;
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -271,8 +268,7 @@ body .top .hero .theme .matome .texts_2 h2 .day_day {
   font-size: 0.8vw;
   color: #216dfb;
   font-weight: 100;
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -281,8 +277,7 @@ body .top .hero .theme .matome .texts_2 h2 .day_day_2 {
   font-size: 0.8vw;
   color: #216dfb;
   font-weight: 100;
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
   margin-top: 2vh;
@@ -291,16 +286,14 @@ body .top .hero .theme .matome .texts_2 h2 .day_day_2 {
 body .top .hero .theme .matome .texts_2 h2 span {
   font-size: 1.3vw;
   font-weight: 100;
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #000;
 }
 
 body .top .hero .theme .matome .texts_2 h2 .morning {
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
   margin-left: 35px;
@@ -314,8 +307,7 @@ body .top .hero .theme .matome .texts_2 h2 .morning span {
 }
 
 body .top .hero .theme .matome .texts_2 h2 .Afternoon {
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
   margin-left: 35px;
@@ -370,8 +362,7 @@ body .top .hero .theme .matome_2 .texts_1 h1 {
   font-size: 1.8vw;
   text-align: left;
   margin-bottom: 3vh;
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -401,8 +392,7 @@ body .top .hero .theme .matome_2 .texts_1 h2 {
 body .top .hero .theme .matome_2 .texts_1 h2 .train {
   font-size: 1.3vw;
   font-weight: 100;
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #000;
@@ -417,8 +407,7 @@ body .top .hero .theme .matome_2 .texts_1 h2 .train_1 {
 body .top .hero .theme .matome_2 .texts_1 h2 .bus {
   font-size: 1.3vw;
   font-weight: 100;
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #000;
@@ -433,8 +422,7 @@ body .top .hero .theme .matome_2 .texts_1 h2 .bus_1 {
 body .top .hero .theme .matome_2 .texts_1 h2 .point {
   font-size: 1.3vw;
   font-weight: 100;
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #000;
@@ -470,8 +458,7 @@ body .top .hero .theme .matome_2 .texts_2 h1 {
   font-size: 1.8vw;
   text-align: left;
   margin-bottom: 3vh;
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -523,8 +510,7 @@ body .top .hero .theme .theme_video h1 {
   font-size: 1.8vw;
   text-align: left;
   margin-bottom: 3vh;
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -564,8 +550,7 @@ body .top .texts_5 h1 {
   font-size: 1.8vw;
   text-align: left;
   margin-bottom: 3vh;
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -586,8 +571,7 @@ body .top .texts_5 h1 img {
 
 body .top .texts_5 .man {
   font-size: 1.5vw;
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
   margin-top: 15vh;
@@ -651,8 +635,7 @@ body .top .sns_2 .matome_3 .texts_1 h1 {
   font-size: 1.8vw;
   text-align: left;
   margin-bottom: 3vh;
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -707,8 +690,7 @@ body .top .sns_2 .matome_3 .texts_2 h1 {
   font-size: 1.8vw;
   text-align: left;
   margin-bottom: 3vh;
-  font-family: source-han-sans-japanese,
- sans-serif;
+  font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
