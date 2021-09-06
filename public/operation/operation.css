@@ -98,4 +98,27 @@ body .top .hero .all .texts_1 h1 img {
   width: 8vh;
   margin-left: 1vw;
 }
+
+body .top .hero .all .texts_1 .text_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body .top .hero .all .texts_1 .text_img h3 {
+  width: 30vw;
+  text-align: left;
+  font-size: 1.1vw;
+  line-height: 4vh;
+}
+
+body .top .hero .all .texts_1 .text_img img {
+  width: 30vw;
+}
 /*# sourceMappingURL=operation.css.map */
