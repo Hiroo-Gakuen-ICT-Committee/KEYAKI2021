@@ -49,18 +49,6 @@ body .top .hero .all {
   width: 100vw;
   margin-bottom: 7vw;
   margin-top: 8vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
-  text-align: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 body .top .hero .all .texts_1 {
@@ -145,23 +133,5 @@ body .top .hero .all .texts_1 a {
 
 body .top .hero .all .texts_1 a:hover {
   color: #666;
-}
-
-body .top .hero .all .english .text_img {
-  margin: 0px;
-}
-
-body .top .hero .all .english .text_img h2 {
-  font-size: 0.8vw;
-  line-height: 2.4vh;
-}
-
-body .top .hero .all .english2 .text_img {
-  margin: 0px;
-}
-
-body .top .hero .all .english2 .text_img h2 {
-  font-size: 0.8vw;
-  line-height: 2.8vh;
 }
 /*# sourceMappingURL=operation.css.map */

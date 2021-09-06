@@ -50,11 +50,6 @@ body {
         width: 100vw;
         margin-bottom: 7vw;
         margin-top: 8vh;
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        text-align: center;
-        flex-wrap: wrap;
 
         .texts_1 {
           background-color: rgba(243, 249, 243, 0.8);
@@ -134,28 +129,6 @@ body {
 
             &:hover {
               color: #666;
-            }
-          }
-        }
-
-        .english {
-          .text_img {
-            margin: 0px;
-
-            h2 {
-              font-size: 0.8vw;
-              line-height: 2.4vh;
-            }
-          }
-        }
-
-        .english2 {
-          .text_img {
-            margin: 0px;
-
-            h2 {
-              font-size: 0.8vw;
-              line-height: 2.8vh;
             }
           }
         }
