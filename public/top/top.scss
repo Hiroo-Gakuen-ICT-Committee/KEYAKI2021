@@ -29,10 +29,13 @@ body {
       .header {
         height: 100vh;
         overflow: hidden;
-
+        background-image: url("/public/images/back1.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
         .back {
           width: 34vw;
           position: absolute;
+          left: 0px;
         }
 
         .textimage {
@@ -41,7 +44,7 @@ body {
           .text {
             float: left;
             margin-top: 23vh;
-            margin-left: 4.5vw;
+            margin-left: 0vw;
             font-size: 6vw;
             position: relative;
 
@@ -69,7 +72,7 @@ body {
             float: left;
             width: 24vw;
             margin-top: 23vh;
-            margin-left: 21vw;
+            margin-left: 24vw;
           }
         }
 

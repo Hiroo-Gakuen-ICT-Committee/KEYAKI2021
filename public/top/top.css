@@ -30,11 +30,15 @@ body .top .hero {
 body .top .hero .header {
   height: 100vh;
   overflow: hidden;
+  background-image: url("/public/images/back1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 body .top .hero .header .back {
   width: 34vw;
   position: absolute;
+  left: 0px;
 }
 
 body .top .hero .header .textimage {
@@ -44,7 +48,7 @@ body .top .hero .header .textimage {
 body .top .hero .header .textimage .text {
   float: left;
   margin-top: 23vh;
-  margin-left: 4.5vw;
+  margin-left: 0vw;
   font-size: 6vw;
   position: relative;
 }
@@ -70,7 +74,7 @@ body .top .hero .header .textimage img {
   float: left;
   width: 24vw;
   margin-top: 23vh;
-  margin-left: 21vw;
+  margin-left: 24vw;
 }
 
 body .top .hero .header .bottom {
@@ -238,7 +242,7 @@ body .top .hero .theme .matome .texts_2 {
 }
 
 body .top .hero .theme .matome .texts_2 h6 {
-  font-size: 0.001vw;
+  font-size: 0.01vw;
 }
 
 body .top .hero .theme .matome .texts_2 h1 {
