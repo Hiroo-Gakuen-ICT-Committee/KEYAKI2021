@@ -81,10 +81,11 @@ body {
             margin-left: 0px;
             display: flex;
             justify-content: start;
-            align-items: flex-end;
+            align-items: center;
 
             span {
               color: #ed7a9b;
+              margin-top: 1vh;
             }
 
             .small {
@@ -116,8 +117,9 @@ body {
               border-left: #0b2062 solid 0.4vw;
               width: 21vw;
               margin-left: 1vw;
-              margin-right: 2vw;           
-             }
+              margin-right: 2vw;     
+              margin-top: 0px;      
+            }
 
             img{
               width: 12vh;

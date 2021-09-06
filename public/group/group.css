@@ -90,13 +90,14 @@ body .top .hero .all .texts_1 h1 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .top .hero .all .texts_1 h1 span {
   color: #ed7a9b;
+  margin-top: 1vh;
 }
 
 body .top .hero .all .texts_1 h1 .small {
@@ -135,6 +136,7 @@ body .top .hero .all .texts_1 .text_img h2 {
   width: 21vw;
   margin-left: 1vw;
   margin-right: 2vw;
+  margin-top: 0px;
 }
 
 body .top .hero .all .texts_1 .text_img img {
