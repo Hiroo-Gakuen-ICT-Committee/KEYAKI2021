@@ -84,6 +84,15 @@ body .top .hero .all .texts_1 h1 {
   font-weight: 700;
   font-style: normal;
   margin-left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .top .hero .all .texts_1 h1 span {
@@ -96,8 +105,7 @@ body .top .hero .all .texts_1 h1 .small {
 }
 
 body .top .hero .all .texts_1 h1 img {
-  height: 2.5vw;
-  margin-left: 1vw;
+  height: 5vw;
 }
 
 body .top .hero .all .texts_1 .text_img {
@@ -127,6 +135,7 @@ body .top .hero .all .texts_1 .text_img h2 {
   width: 21vw;
   margin-left: 1vw;
   margin-right: 2vw;
+  margin-top: 0px;
 }
 
 body .top .hero .all .texts_1 .text_img img {
@@ -134,6 +143,7 @@ body .top .hero .all .texts_1 .text_img img {
   margin-top: 5vh;
   margin-left: 1vw;
   margin-right: 3vw;
+  margin-top: 0px;
 }
 
 body .top .hero .all .texts_1 a {

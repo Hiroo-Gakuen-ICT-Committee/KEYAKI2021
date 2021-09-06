@@ -79,8 +79,9 @@ body {
             font-weight: 700;
             font-style: normal;
             margin-left: 0px;
-
-
+            display: flex;
+            justify-content: start;
+            align-items: center;
 
             span {
               color: #ed7a9b;
@@ -92,8 +93,7 @@ body {
             }
 
             img {
-              height: 2.5vw;
-              margin-left: 1vw;
+              height: 5vw;
             }
           }
 
@@ -117,6 +117,7 @@ body {
               width: 21vw;
               margin-left: 1vw;
               margin-right: 2vw;
+              margin-top: 0px;
             }
 
             img{
@@ -124,6 +125,8 @@ body {
               margin-top: 5vh;
               margin-left: 1vw;
               margin-right: 3vw;
+              margin-top: 0px;
+
             }
           }
 
