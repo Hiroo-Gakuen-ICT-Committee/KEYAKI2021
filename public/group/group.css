@@ -90,9 +90,9 @@ body .top .hero .all .texts_1 h1 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 body .top .hero .all .texts_1 h1 span {
@@ -115,9 +115,9 @@ body .top .hero .all .texts_1 .text_img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   text-align: center;
   margin-bottom: 2vh;
 }
@@ -135,7 +135,6 @@ body .top .hero .all .texts_1 .text_img h2 {
   width: 21vw;
   margin-left: 1vw;
   margin-right: 2vw;
-  margin-top: 0px;
 }
 
 body .top .hero .all .texts_1 .text_img img {

@@ -81,7 +81,7 @@ body {
             margin-left: 0px;
             display: flex;
             justify-content: start;
-            align-items: center;
+            align-items: flex-end;
 
             span {
               color: #ed7a9b;
@@ -100,7 +100,7 @@ body {
           .text_img {
             display: flex;
             justify-content: center;
-            align-items: start;
+            align-items: flex-end;
             text-align: center;
             margin-bottom: 2vh;
 
@@ -116,9 +116,8 @@ body {
               border-left: #0b2062 solid 0.4vw;
               width: 21vw;
               margin-left: 1vw;
-              margin-right: 2vw;
-              margin-top: 0px;
-            }
+              margin-right: 2vw;           
+             }
 
             img{
               width: 12vh;
