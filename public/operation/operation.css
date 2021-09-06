@@ -98,15 +98,4 @@ body .top .hero .all .texts_1 h1 img {
   width: 8vh;
   margin-left: 1vw;
 }
-
-body .top .hero .all .texts_1 a {
-  font-size: 0.8vw;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  bottom: 0px;
-}
-
-body .top .hero .all .texts_1 a:hover {
-  color: #666;
-}
 /*# sourceMappingURL=operation.css.map */

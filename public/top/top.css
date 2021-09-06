@@ -176,6 +176,10 @@ body .top .hero .theme .matome .texts_1 {
   height: calc(100% - 300px);
 }
 
+body .top .hero .theme .matome .texts_1 h6 {
+  font-size: 0.03vw;
+}
+
 body .top .hero .theme .matome .texts_1 h1 {
   font-size: 1.8vw;
   text-align: left;

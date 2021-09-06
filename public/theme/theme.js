@@ -3,7 +3,7 @@ $('.menu').on('click', function () {
   $('.gnav').fadeToggle();
   $('.day').fadeToggle();
   //上記のコードはsection追加ごとに付け足す
-  $('section').fadeToggle();
+  $('.hero').fadeToggle();
 });
 ScrollReveal().reveal('.yokokara', {
   duration: 1600,
