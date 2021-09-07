@@ -3,12 +3,11 @@ $('body').addClass('kesu');
 
 
 
-pack_a="neko"
+pack_a=encodeURIComponent('neko?')
 
 
 
 if (pack == pack_a) {
     console.log("パスワードの認証に成功しました。");
     $('body').removeClass('kesu');
-
 }
