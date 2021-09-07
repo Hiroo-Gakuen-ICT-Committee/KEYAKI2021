@@ -1,4 +1,4 @@
-@media (max-width:480px){
+@media (max-width:1020px){
   body {
     width: 100vw;
     font-family: source-han-sans-japanese,
@@ -28,8 +28,9 @@
         text-align: center;
   
         .header {
-          height: 100vh;
+          height: 55vh;
           overflow: hidden;
+          display: none;
   
           .back {
             width: 34vw;
@@ -152,25 +153,24 @@
   
           .matome {
             width: 100vw;
-            display: flex;
             justify-content: center;
             align-items: start;
             text-align: center;
-            margin-bottom: 7vw;
-  
+            margin-bottom: 3vw;
+            display: block;
             .texts_1 {
               background-color: rgba(243, 249, 243, 0.8);
               padding: 2vw;
               border-radius: 16px;
-              width: 40vw;
-              text-align: right;
+              width: 90vw;
               height: calc(100% - 300px);
+              margin: auto;
   
   
   
   
               h1 {
-                font-size: 1.8vw;
+                font-size: 4.2vw;
                 text-align: left;
                 margin-bottom: 3vh;
                 font-family: source-han-sans-japanese,
@@ -188,7 +188,7 @@
                 }
   
                 img {
-                  height: 2.5vw;
+                  height: 4.4vw;
                   margin-left: 1vw;
                   transform: rotateZ(10deg);
                 }
@@ -197,9 +197,9 @@
               h2 {
                 text-align: left;
                 font-size: 1vw;
-                line-height: 2.2vw;
+                line-height: 3vw;
                 color: #000;
-                padding: 6vh;
+                padding: 3vh;
                 padding-top: 0px;
                 padding-bottom: 0px;
                 padding-bottom: 3vh;
@@ -220,14 +220,16 @@
               background-color: rgba(243, 249, 243, 0.8);
               padding: 2vw;
               border-radius: 16px;
-              width: 40vw;
-              margin-left: 7vw;
-              text-align: right;
+              width: 90vw;
               height: calc(100% - 300px);
+              margin: auto;
+              margin-top: 3vh;
+              margin-bottom: 3vh;
+              line-height: 2px;
   
   
               h1 {
-                font-size: 1.8vw;
+                font-size: 4.2vw;
                 text-align: left;
                 margin-bottom: 3vh;
                 font-family: source-han-sans-japanese,
@@ -236,7 +238,7 @@
                 font-style: normal;
   
                 img {
-                  height: 2.5vw;
+                  height: 4.4vw;
                   margin-left: 1vw;
                 }
   
@@ -249,7 +251,7 @@
               h2 {
                 text-align: left;
                 font-size: 1vw;
-                line-height: 2.2vw;
+                line-height: 3vw;
                 color: #000;
                 padding: 6vh;
                 padding-top: 0px;
@@ -338,18 +340,15 @@
   
           .matome_2 {
             width: 100vw;
-            display: flex;
-            justify-content: center;
-            align-items: start;
-            text-align: center;
+            display: block;
+           
   
             .texts_1 {
               background-color: rgba(243, 249, 243, 0.8);
               padding: 2vw;
               border-radius: 16px;
-              width: 40vw;
-              text-align: right;
-  
+              width: 90vw;
+              margin: auto;
               height: calc(100% - 300px);
   
   
@@ -376,9 +375,9 @@
               h2 {
                 text-align: left;
                 font-size: 1vw;
-                line-height: 2.2vw;
+                line-height: 3vw;
                 color: #000;
-                padding: 6vh;
+                padding: 4vh;
                 padding-top: 0px;
                 padding-bottom: 0px;
                 border-left: #a6c3ac solid 0.4vw;
@@ -451,9 +450,9 @@
               background-color: rgba(243, 249, 243, 0.8);
               padding: 2vw;
               border-radius: 16px;
-              width: 40vw;
-              margin-left: 7vw;
-              text-align: right;
+              width: 90vw;
+              margin: auto;
+              margin-top: 3vh;
               height: calc(100% - 300px);
   
   
@@ -509,6 +508,8 @@
             margin-top: 10vw;
             margin-left: 7vw;
             margin-right: 7vw;
+            height: 100vh;
+            display: none;
   
   
             h1 {
@@ -621,19 +622,19 @@
   
         .matome_3 {
           width: 100vw;
-          display: flex;
-          justify-content: center;
           align-items: start;
           text-align: center;
-          margin-bottom: 7vw;
+          margin-bottom: 3vw;
+          display: block;
   
           .texts_1 {
             background-color: rgba(243, 249, 243, 0.8);
             padding: 2vw;
             border-radius: 16px;
-            width: 40vw;
-            text-align: right;
-            height: calc(100% - 300px);
+            width: 90vw;
+            margin: auto;
+            
+            margin-top: 3px;
   
   
   
@@ -687,9 +688,10 @@
             background-color: rgba(243, 249, 243, 0.8);
             padding: 2vw;
             border-radius: 16px;
-            width: 40vw;
-            text-align: right;
+            width: 90vw;
             margin-left: 7vw;
+            margin: auto;
+            margin-top: 3vh;
             height: calc(100% - 300px);
   
   
