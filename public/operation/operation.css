@@ -247,6 +247,10 @@ body .top .hero .all_2 .english .text_img h2 {
   line-height: 2.4vh;
 }
 
+body .top .hero .all_2 .english2 .sennkyo {
+  font-size: 1.4vw;
+}
+
 body .top .hero .all_2 .english2 .text_img {
   margin: 0px;
 }
