@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body {
+  width: 100vw;
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  /* IE, Edge 対応 */
+  scrollbar-width: none;
+  /* Firefox 対応 */
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  /* Chrome, Safari 対応 */
+  display: none;
+}
+
+body .top .hero {
+  height: 130vh;
+  background-image: url("/public/images/back3.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 75vh;
+  background-attachment: fixed;
+  z-index: 100;
+  padding-top: 20vh;
+}
+
+body .top .hero h1 {
+  font-size: 3.5vw;
+  margin-left: 23vw;
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 700;
+}
+
+body .top .hero h2 {
+  margin-left: 23.5vw;
+  margin-top: 4vh;
+  color: #676767;
+  font-size: 0.8vw;
+  line-height: 0.3vw;
+}
+/*# sourceMappingURL=time.css.map */
