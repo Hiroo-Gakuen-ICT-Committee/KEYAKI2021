@@ -1,5 +1,5 @@
-var pack = prompt("パスワードを入力してください。");
-$('.true').css('display','none');
+//var pack = prompt("パスワードを入力してください。");
+//$('.true').css('display','none');
 $('.fales').css('display','none');
 
 
