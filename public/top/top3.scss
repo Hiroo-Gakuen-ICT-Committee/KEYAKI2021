@@ -149,8 +149,7 @@
           background-position: center center;
           background-size: 75vh;
           background-attachment: fixed;
-          padding-top: 10vw;
-  
+          padding-top: 15vw;
           .matome {
             width: 100vw;
             justify-content: center;
@@ -204,7 +203,7 @@
                 padding-top: 0px;
                 padding-bottom: 0px;
                 border-left: #ed7a9b solid 1vw;
-                margin-bottom: 2.5vh;
+                margin-bottom: 1vh;
               }
   
               a {
@@ -261,7 +260,7 @@
                 padding-bottom: 0px;
                 padding-left: 8vw;
                 border-left: #72a8db solid 1vw;
-                margin-bottom: 5vh;
+                margin-bottom: 2vh;
   
                 .day_day {
                   font-size: 0.8vw;
@@ -388,6 +387,7 @@
                 padding-top: 0px;
                 padding-bottom: 0px;
                 border-left: #a6c3ac solid 1vw;
+                margin-bottom: 2vh;
   
                 .train {
                   font-size: 1.3vw;
@@ -494,7 +494,7 @@
                 padding-top: 0px;
                 padding-bottom: 0px;
                 border-left: #f6c375 solid 1vw;
-                margin-bottom: 5vh;
+                margin-bottom: 2vh;
               }
   
               a {
@@ -599,11 +599,11 @@
             sans-serif;
           font-weight: 700;
           font-style: normal;
-          margin-top: 15vh;
+          margin-top: 7vh;
         }
   
         .koutyou {
-          margin-top: 8vh;
+          margin-top: 3vh;
         }
   
         h2 {
@@ -611,9 +611,8 @@
           font-size: 1vw;
           line-height: 4vw;
           color: #000;
-          padding: 6vh;
+          padding: 3vh;
           padding-top: 0px;
-          padding-bottom: 0px;
           padding-bottom: 3vh;
           border-left: #009b8e solid 1vw;
         }
