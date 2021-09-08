@@ -10,7 +10,7 @@ body {
   -ms-overflow-style: none;
   /* IE, Edge 対応 */
   scrollbar-width: none;
-
+  display: none;
   /* Firefox 対応 */
   &::-webkit-scrollbar {
     /* Chrome, Safari 対応 */
@@ -58,10 +58,12 @@ body {
 
         .texts_1 {
           background-color: rgba(243, 249, 243, 0.8);
-          padding: 2vw;
-          padding-left: 1vw;
+          padding: 1.5vw;
+          padding-top: 1.5vw;
+          padding-bottom: 1.5vw;
+
           border-radius: 16px;
-          width: 37vw;
+          width: 39vw;
           text-align: right;
 
           min-height: calc(35vh);
@@ -98,50 +100,7 @@ body {
             }
           }
 
-          .text_img {
-            display: flex;
-            justify-content: center;
-            align-items: flex-end;
-            text-align: center;
-            margin-bottom: 2vh;
-
-            h2 {
-              text-align: left;
-              font-size: 1vw;
-              line-height: 4vh;
-              color: #000;
-              padding: 0px;
-              padding-left: 1vw;
-              padding-top: 0.5vw;
-              padding-bottom: 0.5vw;
-              border-left: #0b2062 solid 0.4vw;
-              width: 21vw;
-              margin-left: 1vw;
-              margin-right: 2vw;     
-              margin-top: 0px;      
-            }
-
-            img{
-              width: 12vh;
-              margin-top: 5vh;
-              margin-left: 1vw;
-              margin-right: 3vw;
-              margin-top: 0px;
-              margin-bottom: 2vh;
-
-
-            }
-          }
-
-          a {
-            font-size: 0.8vw;
-            transition: 0.3s;
-            bottom: 0px;
-
-            &:hover {
-              color: #666;
-            }
-          }
+          
         }
 
         .english {
