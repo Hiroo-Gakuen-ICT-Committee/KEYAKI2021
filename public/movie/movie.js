@@ -1,6 +1,6 @@
 var pack = prompt("パスワードを入力してください。");
-$('true').addClass('kesu');
-$('falese').addClass('kesu');
+$('.true').css('display','none');
+$('.fales').css('display','none');
 
 
 
@@ -10,12 +10,11 @@ var pack_a="neko"
 
 if (pack == pack_a) {
     console.log("パスワードの認証に成功しました。");
-    $('true').removeClass('kesu');
-    $('falese').addClass('kesu');
+    $('.true').css('display','inline');
+
 } else {
     console.log("パスワードの認証に失敗しました。");
+    $('.fales').css('display','inline');
 
-    $('fales').removeClass('kesu');
-    $('true').addClass('kesu');
     
 }
