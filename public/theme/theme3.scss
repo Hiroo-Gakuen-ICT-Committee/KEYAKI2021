@@ -1,0 +1,36 @@
+@media  (max-width: 600px) {
+    .yokokara{
+        h1,h2 {
+          margin-left: 10vw;
+        }
+
+        margin-top: 10vh;
+    }
+
+    .item{
+        h2 {
+            margin-left: 10vw;
+        }
+        h3 {
+            margin-left: 10vw;
+            margin-right: 10vw;
+            line-height: 4vw;
+        }
+        img{
+            width:80vw;
+            height: auto;
+        }
+    } 
+
+
+    .imi{
+        h2 {
+          margin-left: 10vw;
+        }
+        h3{
+            margin-right: 10vw;
+            margin-left: 10vw;
+            line-height: 4vw;
+        }
+    }
+}
