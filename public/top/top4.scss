@@ -1,5 +1,5 @@
-@charset "UTF-8";
-/*menu*/
+@media (max-width:1020px) {
+  /*menu*/
 .menu {
   height: 20px;
   position: absolute;
@@ -7,7 +7,8 @@
   top: 20px;
   width: 30px;
   z-index: 107;
-  font-family: source-han-sans-japanese, sans-serif;
+  font-family: source-han-sans-japanese,
+    sans-serif;
   font-weight: 400;
   font-style: normal;
   float: left;
@@ -18,10 +19,7 @@
   display: block;
   height: 2px;
   position: absolute;
-  -webkit-transition: -webkit-transform .3s;
-  transition: -webkit-transform .3s;
   transition: transform .3s;
-  transition: transform .3s, -webkit-transform .3s;
   width: 100%;
 }
 
@@ -35,19 +33,16 @@
 
 .menu__line--top.active {
   top: 8px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .menu__line--center.active {
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
+  transform: scaleX(0);
 }
 
 .menu__line--bottom.active {
   bottom: 10px;
-  -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 .gnav {
@@ -60,16 +55,10 @@
 }
 
 .gnav__wrap {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
   height: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   position: absolute;
   width: 100%;
 }
@@ -84,21 +73,21 @@
 
 .gnav__menu__item a {
   color: #000;
-  font-size: 2vw;
+  font-size: 6vw;
   font-weight: bold;
   padding-left: 10px;
   text-decoration: none;
-  -webkit-transition: .5s;
   transition: .5s;
   text-align: left;
-  -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
   z-index: 107;
-}
 
-.gnav__menu__item a span {
-  font-size: 1.3vw;
-  margin-left: 2.3vw;
+  span {
+    font-size: 1.3vw;
+    margin-left: 2.3vw;
+
+  }
+
 }
 
 .gnav__menu__item a:hover {
@@ -106,15 +95,19 @@
 }
 
 .hero {
+
   background-position: 50% 50%;
   background-size: cover;
 }
 
+
+//背景動画
+
 .video_header {
   z-index: 1;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100vw;
+  display: none;
 }
 
 .overlay {
@@ -128,5 +121,6 @@
   overflow: hidden;
 }
 
+//ボタンデザイン
 /*その他と主な共通部分は省略*/
-/*# sourceMappingURL=map2.css.map */
+}
