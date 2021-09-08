@@ -1,20 +1,19 @@
-//var pack = prompt("パスワードを入力してください。");
-//$('.true').css('display','none');
-$('.fales').css('display','none');
+var pack = prompt("パスワードを入力してください。");
+$('.true').css('display', 'none');
 
 
 
 
-var pack_a="neko"
+var pack_a = "neko"
 
 
 if (pack == pack_a) {
     console.log("パスワードの認証に成功しました。");
-    $('.true').css('display','inline');
+    $('.true').css('display', 'inline');
 
 } else {
     console.log("パスワードの認証に失敗しました。");
-    $('.fales').css('display','inline');
+    location.href = "/top.html";
 
-    
+
 }
