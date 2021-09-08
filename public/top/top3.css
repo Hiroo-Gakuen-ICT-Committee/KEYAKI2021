@@ -152,12 +152,12 @@
     width: 90vw;
     height: calc(100% - 300px);
     margin: auto;
-    height: 30vh;
   }
   body .top .hero .theme .matome .texts_1 h1 {
     font-size: 4.2vw;
     text-align: left;
     margin-bottom: 3vh;
+    margin-top: 2vh;
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -183,13 +183,15 @@
     padding: 3vh;
     padding-top: 0px;
     padding-bottom: 0px;
-    border-left: #ed7a9b solid 0.4vw;
-    margin-bottom: 5vh;
+    border-left: #ed7a9b solid 1vw;
+    margin-bottom: 2.5vh;
   }
   body .top .hero .theme .matome .texts_1 a {
     font-size: 0.8vw;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    display: block;
+    margin-bottom: 2vh;
   }
   body .top .hero .theme .matome .texts_1 a:hover {
     color: #666;
@@ -212,6 +214,7 @@
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin-top: 2vh;
   }
   body .top .hero .theme .matome .texts_2 h1 img {
     height: 4.2vw;
@@ -230,7 +233,7 @@
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 8vw;
-    border-left: #72a8db solid 0.4vw;
+    border-left: #72a8db solid 1vw;
     margin-bottom: 5vh;
   }
   body .top .hero .theme .matome .texts_2 h2 .day_day {
@@ -290,6 +293,8 @@
     font-size: 0.8vw;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    display: block;
+    margin-bottom: 2vh;
   }
   body .top .hero .theme .matome .texts_2 a:hover {
     color: #666;
@@ -313,6 +318,7 @@
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin-top: 2vh;
   }
   body .top .hero .theme .matome_2 .texts_1 h1 img {
     height: 4.2vw;
@@ -330,7 +336,7 @@
     padding: 4vh;
     padding-top: 0px;
     padding-bottom: 0px;
-    border-left: #a6c3ac solid 0.4vw;
+    border-left: #a6c3ac solid 1vw;
   }
   body .top .hero .theme .matome_2 .texts_1 h2 .train {
     font-size: 1.3vw;
@@ -375,6 +381,8 @@
     font-size: 0.8vw;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    display: block;
+    margin-bottom: 2vh;
   }
   body .top .hero .theme .matome_2 .texts_1 a:hover {
     color: #666;
@@ -395,6 +403,7 @@
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin-top: 2vh;
   }
   body .top .hero .theme .matome_2 .texts_2 h1 img {
     height: 4.2vw;
@@ -412,13 +421,15 @@
     padding: 3vh;
     padding-top: 0px;
     padding-bottom: 0px;
-    border-left: #f6c375 solid 0.4vw;
+    border-left: #f6c375 solid 1vw;
     margin-bottom: 5vh;
   }
   body .top .hero .theme .matome_2 .texts_2 a {
     font-size: 0.8vw;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    display: block;
+    margin-bottom: 2vh;
   }
   body .top .hero .theme .matome_2 .texts_2 a:hover {
     color: #666;
@@ -470,12 +481,13 @@
     margin-bottom: 0px;
   }
   body .top .texts_5 h1 {
-    font-size: 1.8vw;
+    font-size: 4.2vw;
     text-align: left;
     margin-bottom: 3vh;
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin-top: 2vh;
   }
   body .top .texts_5 h1 span {
     color: #ed7a9b;
@@ -485,11 +497,11 @@
     font-size: 1.2vw;
   }
   body .top .texts_5 h1 img {
-    height: 2vw;
+    height: 4.2vw;
     margin-left: 1vw;
   }
   body .top .texts_5 .man {
-    font-size: 1.5vw;
+    font-size: 3.1vw;
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -501,13 +513,13 @@
   body .top .texts_5 h2 {
     text-align: left;
     font-size: 1vw;
-    line-height: 2.2vw;
+    line-height: 4vw;
     color: #000;
     padding: 6vh;
     padding-top: 0px;
     padding-bottom: 0px;
     padding-bottom: 3vh;
-    border-left: #009b8e solid 0.4vw;
+    border-left: #009b8e solid 1vw;
   }
   body .top .texts_5 a {
     font-size: 0.8vw;
@@ -544,6 +556,7 @@
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin-top: 2vh;
   }
   body .top .sns_2 .matome_3 .texts_1 h1 span {
     color: #3291d0;
@@ -564,13 +577,15 @@
     padding: 3vh;
     padding-top: 0px;
     padding-bottom: 0px;
-    border-left: #3291d0 solid 0.4vw;
+    border-left: #3291d0 solid 1vw;
     margin-bottom: 5vh;
   }
   body .top .sns_2 .matome_3 .texts_1 a {
     font-size: 0.8vw;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    display: block;
+    margin-bottom: 2vh;
   }
   body .top .sns_2 .matome_3 .texts_1 a:hover {
     color: #666;
@@ -589,6 +604,7 @@
     font-size: 4.2vw;
     text-align: left;
     margin-bottom: 3vh;
+    margin-top: 2vh;
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -612,13 +628,15 @@
     padding: 3vh;
     padding-top: 0px;
     padding-bottom: 0px;
-    border-left: #eb952d solid 0.4vw;
+    border-left: #eb952d solid 1vw;
     margin-bottom: 5vh;
   }
   body .top .sns_2 .matome_3 .texts_2 a {
     font-size: 0.8vw;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    display: block;
+    margin-bottom: 2vh;
   }
   body .top .sns_2 .matome_3 .texts_2 a:hover {
     color: #666;

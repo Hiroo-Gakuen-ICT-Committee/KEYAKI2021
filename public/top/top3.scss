@@ -165,7 +165,6 @@
               width: 90vw;
               height: calc(100% - 300px);
               margin: auto;
-              height: 30vh;
   
   
   
@@ -174,6 +173,7 @@
                 font-size: 4.2vw;
                 text-align: left;
                 margin-bottom: 3vh;
+                margin-top: 2vh;
                 font-family: source-han-sans-japanese,
                   sans-serif;
                 font-weight: 700;
@@ -203,14 +203,15 @@
                 padding: 3vh;
                 padding-top: 0px;
                 padding-bottom: 0px;
-                border-left: #ed7a9b solid 0.4vw;
-                margin-bottom: 5vh;
+                border-left: #ed7a9b solid 1vw;
+                margin-bottom: 2.5vh;
               }
   
               a {
                 font-size: 0.8vw;
                 transition: 0.3s;
-  
+                display: block;
+                margin-bottom: 2vh;
                 &:hover {
                   color: #666;
                 }
@@ -237,6 +238,7 @@
                   sans-serif;
                 font-weight: 700;
                 font-style: normal;
+                margin-top: 2vh;
   
                 img {
                   height: 4.2vw;
@@ -258,7 +260,7 @@
                 padding-top: 0px;
                 padding-bottom: 0px;
                 padding-left: 8vw;
-                border-left: #72a8db solid 0.4vw;
+                border-left: #72a8db solid 1vw;
                 margin-bottom: 5vh;
   
                 .day_day {
@@ -331,6 +333,8 @@
               a {
                 font-size: 0.8vw;
                 transition: 0.3s;
+                display: block;
+                margin-bottom: 2vh;
   
                 &:hover {
                   color: #666;
@@ -362,6 +366,7 @@
                   sans-serif;
                 font-weight: 700;
                 font-style: normal;
+                margin-top: 2vh;
   
                 img {
                   height: 4.2vw;
@@ -382,7 +387,7 @@
                 padding: 4vh;
                 padding-top: 0px;
                 padding-bottom: 0px;
-                border-left: #a6c3ac solid 0.4vw;
+                border-left: #a6c3ac solid 1vw;
   
                 .train {
                   font-size: 1.3vw;
@@ -440,6 +445,8 @@
               a {
                 font-size: 0.8vw;
                 transition: 0.3s;
+                display: block;
+                margin-bottom: 2vh;
   
                 &:hover {
                   color: #666;
@@ -465,6 +472,7 @@
                   sans-serif;
                 font-weight: 700;
                 font-style: normal;
+                margin-top: 2vh;
   
                 img {
                   height: 4.2vw;
@@ -485,13 +493,15 @@
                 padding: 3vh;
                 padding-top: 0px;
                 padding-bottom: 0px;
-                border-left: #f6c375 solid 0.4vw;
+                border-left: #f6c375 solid 1vw;
                 margin-bottom: 5vh;
               }
   
               a {
                 font-size: 0.8vw;
                 transition: 0.3s;
+                display: block;
+                margin-bottom: 2vh;
   
                 &:hover {
                   color: #666;
@@ -559,13 +569,14 @@
         margin-bottom: 0px;
   
         h1 {
-          font-size: 1.8vw;
+          font-size: 4.2vw;
           text-align: left;
           margin-bottom: 3vh;
           font-family: source-han-sans-japanese,
             sans-serif;
           font-weight: 700;
           font-style: normal;
+          margin-top: 2vh;
   
           span {
             color: #ed7a9b;
@@ -577,13 +588,13 @@
           }
   
           img {
-            height: 2vw;
+            height: 4.2vw;
             margin-left: 1vw;
           }
         }
   
         .man {
-          font-size: 1.5vw;
+          font-size: 3.1vw;
           font-family: source-han-sans-japanese,
             sans-serif;
           font-weight: 700;
@@ -598,13 +609,13 @@
         h2 {
           text-align: left;
           font-size: 1vw;
-          line-height: 2.2vw;
+          line-height: 4vw;
           color: #000;
           padding: 6vh;
           padding-top: 0px;
           padding-bottom: 0px;
           padding-bottom: 3vh;
-          border-left: #009b8e solid 0.4vw;
+          border-left: #009b8e solid 1vw;
         }
   
         a {
@@ -634,7 +645,6 @@
             border-radius: 16px;
             width: 90vw;
             margin: auto;
-            
             margin-top: 3px;
   
   
@@ -647,6 +657,7 @@
                 sans-serif;
               font-weight: 700;
               font-style: normal;
+              margin-top: 2vh;
   
               span {
                 color: #3291d0;
@@ -671,13 +682,15 @@
               padding: 3vh;
               padding-top: 0px;
               padding-bottom: 0px;
-              border-left: #3291d0 solid 0.4vw;
+              border-left: #3291d0 solid 1vw;
               margin-bottom: 5vh;
             }
   
             a {
               font-size: 0.8vw;
               transition: 0.3s;
+              display: block;
+              margin-bottom: 2vh;
   
               &:hover {
                 color: #666;
@@ -700,6 +713,7 @@
               font-size: 4.2vw;
               text-align: left;
               margin-bottom: 3vh;
+              margin-top: 2vh;
               font-family: source-han-sans-japanese,
                 sans-serif;
               font-weight: 700;
@@ -724,12 +738,14 @@
               padding: 3vh;
               padding-top: 0px;
               padding-bottom: 0px;
-              border-left: #eb952d solid 0.4vw;
+              border-left: #eb952d solid 1vw;
               margin-bottom: 5vh;
             }
             a {
               font-size: 0.8vw;
               transition: 0.3s;
+              display: block;
+              margin-bottom: 2vh;
               &:hover {
                 color: #666;
               }
