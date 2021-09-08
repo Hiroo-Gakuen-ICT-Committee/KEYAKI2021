@@ -29,15 +29,3 @@ $('.menu').on('click', function () {
   });
 
 //アニメーション
-ScrollReveal().reveal('.left', {
-    duration: 1600,
-    origin: 'left',
-    distance: '10px',
-    reset: true
-  });
-  ScrollReveal().reveal('.right', {
-    duration: 1600,
-    origin: 'right',
-    distance: '10px',
-    reset: true
-  });
