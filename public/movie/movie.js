@@ -1,31 +1,36 @@
 //パスワード
-var pack = prompt("");
-$('.true').css('display', 'none');
-
-
-
 
 var pack_a = "neko"
 
 
-if (pack == pack_a) {
-    console.log("パスワードの認証に成功しました。");
-    $('.true').css('display', 'inline');
-    
-
+if (document.cookie == "pw=true") {
+  $('.true').css('display', 'inline');
 } else {
-    console.log("パスワードの認証に失敗しました。");
-    location.href = "/top.html";
+  var pack = prompt("パスワードを入力してください。");
+  if (pack == pack_a) {
+    $('.true').css('display', 'inline');
+    var now = new Date();
+    now.setMinutes(now.getMinutes() + 60 * 48);  // 48時間持続
+    document.cookie = "pw=true";
 
 
+  } else {
+  location.href = "/movie.html";
+
+  }
 }
+
+
+
+
+
 //メニュー
 $('.menu').on('click', function () {
-    $('.menu__line').toggleClass('active');
-    $('.gnav').fadeToggle();
-    $('.day').fadeToggle();
-    //上記のコードはsection追加ごとに付け足す
-    $('section').fadeToggle();
-  });
+  $('.menu__line').toggleClass('active');
+  $('.gnav').fadeToggle();
+  $('.day').fadeToggle();
+  //上記のコードはsection追加ごとに付け足す
+  $('section').fadeToggle();
+});
 
-//アニメーション
+//cookie処理
