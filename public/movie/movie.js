@@ -13,7 +13,7 @@ if (document.cookie == "pw=true") {
     now.setMinutes(now.getMinutes() + 60 * 48);  // 48時間持続
     document.cookie = "pw=true";
   } else if(pack=="furukawafuruwaka"){
-  location.href = "hiroogakuen.com";
+  location.href = "https://daiwaryu1121.com/post-36315/";
   }else {
   location.href = "/movie.html";
   }
