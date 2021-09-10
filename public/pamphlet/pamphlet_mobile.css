@@ -1,0 +1,33 @@
+@media (max-width: 600px) {
+  * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body {
+    display: block;
+    width: 100%;
+  }
+  body .top {
+    width: 100%;
+  }
+  body .top .hero {
+    padding: 20% 5%;
+  }
+  body .top .hero h1 {
+    font-size: 4.2vw;
+    margin-left: 0;
+  }
+  body .top .hero h2 {
+    font-size: 3vw;
+    line-height: 4vw;
+    margin-left: 0;
+  }
+  body .top .hero .download img {
+    width: 50%;
+  }
+  body .top .hero .download a {
+    width: 80%;
+    height: 80%;
+  }
+}
+/*# sourceMappingURL=pamphlet_mobile.css.map */
