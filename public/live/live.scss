@@ -27,7 +27,7 @@ body {
       background-size: 75vh;
       background-attachment: fixed;
       z-index: 100;
-      padding-top: 15vh;
+      padding-top: 10vh;
 
       h1 {
         font-size: 3.5vw;
@@ -49,7 +49,7 @@ body {
       .all {
         width: 100vw;
         margin-bottom: 7vw;
-        margin-top: 8vh;
+        margin-top: 4vh;
         display: flex;
         justify-content: center;
         align-items: start;
@@ -63,14 +63,13 @@ body {
           padding-bottom: 1.5vw;
 
           border-radius: 16px;
-          width: 37vw;
+          width: 67vw;
           text-align: right;
 
           min-height: calc(35vh);
           margin: 2vw;
 
           margin-top: 4vh;
-          margin-bottom: 4vh;
 
           h1 {
             font-size: 1.6vw;
@@ -96,7 +95,8 @@ body {
             }
 
             img {
-              height: 5vw;
+              height: 2vw;
+              margin-left: 1vw;
             }
           }
 

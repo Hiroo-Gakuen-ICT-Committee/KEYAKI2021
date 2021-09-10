@@ -27,7 +27,7 @@ body .top .hero {
   background-size: 75vh;
   background-attachment: fixed;
   z-index: 100;
-  padding-top: 15vh;
+  padding-top: 10vh;
 }
 
 body .top .hero h1 {
@@ -49,7 +49,7 @@ body .top .hero h2 {
 body .top .hero .all {
   width: 100vw;
   margin-bottom: 7vw;
-  margin-top: 8vh;
+  margin-top: 4vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,12 +70,11 @@ body .top .hero .all .texts_1 {
   padding-top: 1.5vw;
   padding-bottom: 1.5vw;
   border-radius: 16px;
-  width: 37vw;
+  width: 67vw;
   text-align: right;
   min-height: calc(35vh);
   margin: 2vw;
   margin-top: 4vh;
-  margin-bottom: 4vh;
 }
 
 body .top .hero .all .texts_1 h1 {
@@ -108,7 +107,8 @@ body .top .hero .all .texts_1 h1 .small {
 }
 
 body .top .hero .all .texts_1 h1 img {
-  height: 5vw;
+  height: 2vw;
+  margin-left: 1vw;
 }
 
 body .top .hero .all .english .text_img {
