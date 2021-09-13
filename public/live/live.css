@@ -28,6 +28,7 @@ body .top .hero {
   background-attachment: fixed;
   z-index: 100;
   padding-top: 10vh;
+  height: 100vh;
 }
 
 body .top .hero h1 {
@@ -44,6 +45,14 @@ body .top .hero h2 {
   font-size: 0.8vw;
   line-height: 0.3vw;
   margin-bottom: 2vh;
+}
+
+body .top .hero .start {
+  color: #FFFFFF;
+  font-size: 2vw;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body .top .hero .all {

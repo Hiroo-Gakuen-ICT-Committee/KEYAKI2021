@@ -28,6 +28,7 @@ body {
       background-attachment: fixed;
       z-index: 100;
       padding-top: 10vh;
+      height: 100vh;
 
       h1 {
         font-size: 3.5vw;
@@ -44,6 +45,13 @@ body {
         font-size: 0.8vw;
         line-height: 0.3vw;
         margin-bottom: 2vh;
+      }
+      .start{
+        color: #FFFFFF;
+        font-size: 2vw;
+        display: none;
+        margin-left: auto;
+        margin-right: auto;
       }
 
       .all {
