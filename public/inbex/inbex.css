@@ -11,7 +11,6 @@ body {
   /* IE, Edge 対応 */
   scrollbar-width: none;
   /* Firefox 対応 */
-  display: none;
   scroll-behavior: smooth;
 }
 
@@ -127,4 +126,4 @@ body .top .hero .all .english2 .text_img h2 {
   font-size: 0.8vw;
   line-height: 2.8vh;
 }
-/*# sourceMappingURL=live.css.map */
+/*# sourceMappingURL=inbex.css.map */

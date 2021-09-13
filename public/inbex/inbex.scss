@@ -11,7 +11,7 @@ body {
   /* IE, Edge 対応 */
   scrollbar-width: none;
   /* Firefox 対応 */
-  display: none;
+  //display: none;
   &::-webkit-scrollbar {
     /* Chrome, Safari 対応 */
     display: none;
