@@ -126,7 +126,6 @@ body .top .hero .all .texts_1 .text_img img {
 
 body .top .hero .all_2 {
   width: 100vw;
-  margin-bottom: 7vw;
   margin-top: 8vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -224,7 +223,7 @@ body .top .hero .all_2 .texts_1 .text_img img {
   margin-left: 1vw;
   margin-right: 3vw;
   margin-top: 0px;
-  margin-bottom: 2vh;
+  margin-bottom: 3vh;
 }
 
 body .top .hero .all_2 .texts_1 a {
@@ -253,10 +252,5 @@ body .top .hero .all_2 .english2 .sennkyo {
 
 body .top .hero .all_2 .english2 .text_img {
   margin: 0px;
-}
-
-body .top .hero .all_2 .english2 .text_img h2 {
-  font-size: 0.8vw;
-  line-height: 2.8vh;
 }
 /*# sourceMappingURL=operation.css.map */
