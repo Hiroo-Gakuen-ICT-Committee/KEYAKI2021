@@ -93,37 +93,12 @@ body .top .hero .all .texts_1 h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 2vh;
 }
 
-body .top .hero .all .texts_1 h1 span {
-  color: #ed7a9b;
-  margin-top: 1vh;
-}
-
-body .top .hero .all .texts_1 h1 .small {
-  color: #000;
-  font-size: 1.1vw;
-}
-
-body .top .hero .all .texts_1 h1 img {
-  height: 5vw;
-}
-
-body .top .hero .all .english .text_img {
+body .top .hero .all .texts_1 h2 {
+  text-align: left;
   margin: 0px;
-}
-
-body .top .hero .all .english .text_img h2 {
-  font-size: 0.8vw;
-  line-height: 2.4vh;
-}
-
-body .top .hero .all .english2 .text_img {
-  margin: 0px;
-}
-
-body .top .hero .all .english2 .text_img h2 {
-  font-size: 0.8vw;
-  line-height: 2.8vh;
+  font-size: 1vw;
 }
 /*# sourceMappingURL=inbex.css.map */
