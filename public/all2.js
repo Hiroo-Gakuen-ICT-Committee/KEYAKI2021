@@ -1,6 +1,6 @@
 //配信ページ配信モード変更
 //ture→配信中 false→配信停止中
-live_web = true
+live_web = false
 
 //配信ページ
 if (live_web == true) {
