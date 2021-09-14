@@ -187,10 +187,10 @@
     padding-top: 0px;
     padding-bottom: 0px;
     border-left: #ed7a9b solid 1vw;
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
   }
   body .top .hero .theme .matome .texts_1 a {
-    font-size: 5px;
+    font-size: 9px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
     display: block;
