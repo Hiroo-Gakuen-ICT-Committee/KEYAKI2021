@@ -1,5 +1,8 @@
 @charset "UTF-8";
 @media (max-width: 479px) {
+  br {
+    display: none;
+  }
   body {
     width: 100vw;
     font-family: source-han-sans-japanese, sans-serif;
