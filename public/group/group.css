@@ -159,6 +159,10 @@ body .top .hero .all .texts_1 a:hover {
   color: #666;
 }
 
+body .top .hero .all .book h1 {
+  font-size: 1.5vw;
+}
+
 body .top .hero .all .english .text_img {
   margin: 0px;
 }
