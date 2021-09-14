@@ -211,7 +211,7 @@
     line-height: 2px;
   }
   body .top .hero .theme .matome .texts_2 h1 {
-    font-size: 4.2vw;
+    font-size: 17px;
     text-align: left;
     margin-bottom: 3vh;
     font-family: source-han-sans-japanese, sans-serif;
@@ -225,12 +225,12 @@
   }
   body .top .hero .theme .matome .texts_2 h1 .small {
     color: #000;
-    font-size: 1.2vw;
+    font-size: 13px;
   }
   body .top .hero .theme .matome .texts_2 h2 {
     text-align: left;
-    font-size: 1vw;
-    line-height: 4vw;
+    font-size: 10px;
+    line-height: 24px;
     color: #000;
     padding: 6vh;
     padding-top: 0px;
@@ -240,7 +240,7 @@
     margin-bottom: 2vh;
   }
   body .top .hero .theme .matome .texts_2 h2 .day_day {
-    font-size: 0.8vw;
+    font-size: 8px;
     color: #216dfb;
     font-weight: 100;
     font-family: source-han-sans-japanese, sans-serif;
@@ -248,7 +248,7 @@
     font-style: normal;
   }
   body .top .hero .theme .matome .texts_2 h2 .day_day_2 {
-    font-size: 0.8vw;
+    font-size: 8px;
     color: #216dfb;
     font-weight: 100;
     font-family: source-han-sans-japanese, sans-serif;
@@ -257,7 +257,7 @@
     margin-top: 2vh;
   }
   body .top .hero .theme .matome .texts_2 h2 span {
-    font-size: 1.3vw;
+    font-size: 13px;
     font-weight: 100;
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 700;
@@ -269,31 +269,31 @@
     font-weight: 700;
     font-style: normal;
     margin-left: 35px;
-    font-size: 1.3vw;
+    font-size: 13px;
     margin-top: 1.5vh;
   }
   body .top .hero .theme .matome .texts_2 h2 .morning span {
     margin-left: 2.1vw;
-    font-size: 1vw;
+    font-size: 10px;
   }
   body .top .hero .theme .matome .texts_2 h2 .Afternoon {
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 700;
     font-style: normal;
     margin-left: 35px;
-    font-size: 1.3vw;
+    font-size: 13px;
   }
   body .top .hero .theme .matome .texts_2 h2 .Afternoon span {
     margin-left: 1vw;
-    font-size: 1vw;
+    font-size: 10px;
   }
   body .top .hero .theme .matome .texts_2 h2 .COVID‑19 {
-    font-size: 0.7vw;
+    font-size: 7px;
     margin-top: 0.6vh;
     margin-bottom: 0.3vh;
   }
   body .top .hero .theme .matome .texts_2 a {
-    font-size: 0.8vw;
+    font-size: 8px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
     display: block;
@@ -316,7 +316,7 @@
     margin-top: 4vh;
   }
   body .top .hero .theme .matome_2 .texts_1 h1 {
-    font-size: 4.2vw;
+    font-size: 17px;
     text-align: left;
     margin-bottom: 3vh;
     font-family: source-han-sans-japanese, sans-serif;
@@ -334,8 +334,8 @@
   }
   body .top .hero .theme .matome_2 .texts_1 h2 {
     text-align: left;
-    font-size: 1vw;
-    line-height: 4vw;
+    font-size: 10px;
+    line-height: 24px;
     color: #000;
     padding: 4vh;
     padding-top: 0px;
@@ -344,7 +344,7 @@
     margin-bottom: 2vh;
   }
   body .top .hero .theme .matome_2 .texts_1 h2 .train {
-    font-size: 1.3vw;
+    font-size: 13px;
     font-weight: 100;
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 700;
@@ -354,10 +354,10 @@
   }
   body .top .hero .theme .matome_2 .texts_1 h2 .train_1 {
     margin-left: 1vw;
-    font-size: 1vw;
+    font-size: 10px;
   }
   body .top .hero .theme .matome_2 .texts_1 h2 .bus {
-    font-size: 1.3vw;
+    font-size: 13px;
     font-weight: 100;
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 700;
@@ -367,10 +367,10 @@
   }
   body .top .hero .theme .matome_2 .texts_1 h2 .bus_1 {
     margin-left: 1vw;
-    font-size: 1vw;
+    font-size: 10px;
   }
   body .top .hero .theme .matome_2 .texts_1 h2 .point {
-    font-size: 1.3vw;
+    font-size: 13px;
     font-weight: 100;
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 700;
@@ -380,10 +380,10 @@
   }
   body .top .hero .theme .matome_2 .texts_1 h2 .point_1 {
     margin-left: 1vw;
-    font-size: 1vw;
+    font-size: 10px;
   }
   body .top .hero .theme .matome_2 .texts_1 a {
-    font-size: 0.8vw;
+    font-size: 8px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
     display: block;
