@@ -402,7 +402,7 @@
     height: calc(100% - 300px);
   }
   body .top .hero .theme .matome_2 .texts_2 h1 {
-    font-size: 4.2vw;
+    font-size: 17px;
     text-align: left;
     margin-bottom: 3vh;
     font-family: source-han-sans-japanese, sans-serif;
@@ -416,11 +416,11 @@
   }
   body .top .hero .theme .matome_2 .texts_2 h1 .small {
     color: #000;
-    font-size: 1.2vw;
+    font-size: 10px;
   }
   body .top .hero .theme .matome_2 .texts_2 h2 {
     text-align: left;
-    font-size: 1vw;
+    font-size: 10px;
     line-height: 4vw;
     color: #000;
     padding: 3vh;
@@ -430,7 +430,7 @@
     margin-bottom: 2vh;
   }
   body .top .hero .theme .matome_2 .texts_2 a {
-    font-size: 0.8vw;
+    font-size: 8px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
     display: block;
@@ -452,7 +452,7 @@
     text-align: center;
   }
   body .top .hero .theme .theme_video h1 {
-    font-size: 1.8vw;
+    font-size: 17px;
     text-align: left;
     margin-bottom: 3vh;
     font-family: source-han-sans-japanese, sans-serif;
@@ -464,7 +464,7 @@
   }
   body .top .hero .theme .theme_video h1 .small {
     color: #000;
-    font-size: 1.2vw;
+    font-size: 10px;
   }
   body .top .hero .theme .theme_video h1 img {
     height: 2vw;
