@@ -45,7 +45,7 @@
   }
   body .top .hero .imi h2 {
     color: #000;
-    font-size: 24px;
+    font-size: 17px;
     margin-top: 7vh;
     border-left: #ed7a9b solid 1vw;
     font-family: source-han-sans-japanese, sans-serif;
@@ -63,8 +63,8 @@
   }
   body .top .hero .item h2 {
     color: #000;
-    font-size: 24px;
-    margin-top: 13vh;
+    font-size: 17px;
+    margin-top: 8vh;
     border-left: #ed7a9b solid 1vw;
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 700;
