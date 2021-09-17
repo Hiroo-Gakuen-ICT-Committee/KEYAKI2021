@@ -18,21 +18,25 @@ function mouseout() {
   download_botan.innerHTML = "Download";
 }
 
-ScrollReveal().reveal('h1', {
-  duration: 1600,
-  origin: 'left',
-  distance: '50px',
-  reset: true,
-});
-ScrollReveal().reveal('h2', {
-  duration: 1600,
-  origin: 'left',
-  distance: '50px',
-  reset: true,
-});
-ScrollReveal().reveal('.download', {
-  duration: 1600,
-  origin: 'left',
-  distance: '50px',
-  reset: true,
-});
+
+
+if(!navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)){
+  ScrollReveal().reveal('h1', {
+    duration: 1600,
+    origin: 'left',
+    distance: '50px',
+    reset: true,
+  });
+  ScrollReveal().reveal('h2', {
+    duration: 1600,
+    origin: 'left',
+    distance: '50px',
+    reset: true,
+  });
+  ScrollReveal().reveal('.download', {
+    duration: 1600,
+    origin: 'left',
+    distance: '50px',
+    reset: true,
+  });
+  }
