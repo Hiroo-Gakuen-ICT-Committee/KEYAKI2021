@@ -162,7 +162,7 @@
             display: block;
             .texts_1 {
               background-color: rgba(243, 249, 243, 0.8);
-              padding: 2vw;
+              padding: 4vw;
               border-radius: 16px;
               width: 90vw;
               height: calc(100% - 300px);
@@ -222,7 +222,7 @@
   
             .texts_2 {
               background-color: rgba(243, 249, 243, 0.8);
-              padding: 2vw;
+              padding: 4vw;
               border-radius: 16px;
               width: 90vw;
               height: calc(100% - 300px);
@@ -249,7 +249,7 @@
   
                 .small {
                   color: #000;
-                  font-size: 13px;
+                  font-size: 12px;
                 }
               }
   
@@ -351,7 +351,7 @@
             display: block;
             .texts_1 {
               background-color: rgba(243, 249, 243, 0.8);
-              padding: 2vw;
+              padding: 4vw;
               border-radius: 16px;
               width: 90vw;
               margin: auto;
@@ -375,7 +375,7 @@
   
                 .small {
                   color: #000;
-                  font-size: 10px;
+                  font-size: 12px;
                 }
               }
   
@@ -458,7 +458,7 @@
             //黄色
             .texts_2 {
               background-color: rgba(243, 249, 243, 0.8);
-              padding: 2vw;
+              padding: 4vw;
               border-radius: 16px;
               width: 90vw;
               margin: auto;
@@ -483,14 +483,14 @@
   
                 .small {
                   color: #000;
-                  font-size: 10px;
+                  font-size: 12px;
                 }
               }
   
               h2 {
                 text-align: left;
                 font-size: 10px;
-                line-height: 4vw;
+                line-height: 24px;
                 color: #000;
                 padding: 3vh;
                 padding-top: 0px;
@@ -515,7 +515,7 @@
   
           .theme_video {
             background-color: rgba(243, 249, 243, 0.8);
-            padding: 2vw;
+            padding: 4vw;
             border-radius: 16px;
             text-align: right;
             margin-top: 10vw;
@@ -540,7 +540,7 @@
   
               .small {
                 color: #000;
-                font-size: 10px;
+                font-size: 12px;
               }
   
               img {
@@ -562,7 +562,7 @@
   
       .texts_5 {
         background-color: rgba(243, 249, 243, 0.8);
-        padding: 2vw;
+        padding: 4vw;
         border-radius: 16px;
         text-align: right;
         margin-top: 10vw;
@@ -571,7 +571,7 @@
         margin-bottom: 0px;
   
         h1 {
-          font-size: 4.2vw;
+          font-size: 17px;
           text-align: left;
           margin-bottom: 3vh;
           font-family: source-han-sans-japanese,
@@ -586,7 +586,7 @@
   
           .small {
             color: #000;
-            font-size: 1.2vw;
+            font-size: 12px;
           }
   
           img {
@@ -596,7 +596,7 @@
         }
   
         .man {
-          font-size: 3.1vw;
+          font-size: 13px;
           font-family: source-han-sans-japanese,
             sans-serif;
           font-weight: 700;
@@ -610,8 +610,8 @@
   
         h2 {
           text-align: left;
-          font-size: 1vw;
-          line-height: 4vw;
+          font-size: 10px;
+          line-height: 24px;
           color: #000;
           padding: 3vh;
           padding-top: 0px;
@@ -620,7 +620,7 @@
         }
   
         a {
-          font-size: 0.8vw;
+          font-size: 8px;
           transition: 0.3s;
   
           &:hover {
@@ -642,7 +642,7 @@
   
           .texts_1 {
             background-color: rgba(243, 249, 243, 0.8);
-            padding: 2vw;
+            padding: 4vw;
             border-radius: 16px;
             width: 90vw;
             margin: auto;
@@ -651,7 +651,7 @@
   
   
             h1 {
-              font-size: 4.2vw;
+              font-size: 17px;
               text-align: left;
               margin-bottom: 3vh;
               font-family: source-han-sans-japanese,
@@ -666,7 +666,7 @@
   
               .small {
                 color: #000;
-                font-size: 1.2vw;
+                font-size: 12px;
               }
   
               img {
@@ -677,8 +677,8 @@
   
             h2 {
               text-align: left;
-              font-size: 1vw;
-              line-height: 4vw;
+              font-size: 10px;
+              line-height: 24px;
               color: #000;
               padding: 3vh;
               padding-top: 0px;
@@ -701,7 +701,7 @@
   
           .texts_2 {
             background-color: rgba(243, 249, 243, 0.8);
-            padding: 2vw;
+            padding: 4vw;
             border-radius: 16px;
             width: 90vw;
             margin-left: 7vw;
@@ -711,7 +711,7 @@
   
   
             h1 {
-              font-size: 4.2vw;
+              font-size: 17px;
               text-align: left;
               margin-bottom: 3vh;
               margin-top: 2vh;
@@ -733,8 +733,8 @@
             }
             h2 {
               text-align: left;
-              font-size: 1vw;
-              line-height: 4vw;
+              font-size: 10px;
+              line-height: 24px;
               color: #000;
               padding: 3vh;
               padding-top: 0px;
@@ -743,7 +743,7 @@
               margin-bottom: 5vh;
             }
             a {
-              font-size: 0.8vw;
+              font-size: 8px;
               transition: 0.3s;
               display: block;
               margin-bottom: 2vh;
