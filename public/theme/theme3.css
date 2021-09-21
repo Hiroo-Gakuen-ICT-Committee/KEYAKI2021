@@ -23,7 +23,7 @@
   }
   body .top .hero {
     height: 200vh;
-    background-image: url("public/images/back3.svg");
+    background-image: url("/public/images/back3.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 75vh;

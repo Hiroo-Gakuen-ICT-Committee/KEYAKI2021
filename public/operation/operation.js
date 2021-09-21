@@ -7,17 +7,3 @@ $('.menu').on('click', function () {
 });
 
 
-if(!navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)){
-  ScrollReveal().reveal('.left', {
-    duration: 1600,
-    origin: 'left',
-    distance: '50px',
-    reset: true
-  });
-  ScrollReveal().reveal('.right', {
-    duration: 1600,
-    origin: 'right',
-    distance: '50px',
-    reset: true
-  });
-  }
