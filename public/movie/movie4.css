@@ -1,8 +1,5 @@
 @charset "UTF-8";
 @media (max-width: 479px) {
-  br {
-    display: none;
-  }
   body {
     width: 100vw;
     font-family: source-han-sans-japanese, sans-serif;
@@ -14,6 +11,7 @@
     -ms-overflow-style: none;
     /* IE, Edge 対応 */
     scrollbar-width: none;
+    display: none;
     /* Firefox 対応 */
     scroll-behavior: smooth;
   }
@@ -31,7 +29,7 @@
     padding-top: 10vh;
   }
   body .top .hero h1 {
-    font-size: 32px;
+    font-size: 25px;
     margin-left: 13vw;
     font-family: source-han-sans-japanese, sans-serif;
     font-weight: 700;
@@ -52,7 +50,7 @@
   body .top .hero .all .texts_1 {
     background-color: rgba(243, 249, 243, 0.8);
     padding: 4vw;
-    padding-left: 1vw;
+    padding-left: 4vw;
     border-radius: 16px;
     width: 74vw;
     text-align: right;
@@ -153,4 +151,4 @@
     line-height: 11px;
   }
 }
-/*# sourceMappingURL=group3.css.map */
+/*# sourceMappingURL=movie4.css.map */
