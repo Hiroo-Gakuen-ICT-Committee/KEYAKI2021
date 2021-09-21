@@ -3,7 +3,7 @@ $('.menu').on('click', function () {
   $('.gnav').fadeToggle();
   $('.day').adeToggle();
   //上記のコードはsection追加ごとに付け足す
-  $('section').fadeToggle();
+  $('.hero').fadeToggle();
 });
 
 //出てくるやつ

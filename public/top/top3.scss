@@ -1,7 +1,4 @@
 @media (max-width: 479px){
-  br{
-    display: none;
-  }
   body {
     width: 100vw;
     font-family: source-han-sans-japanese,
@@ -165,7 +162,7 @@
               padding: 4vw;
               border-radius: 16px;
               width: 90vw;
-              height: calc(100% - 300px);
+              min-height: calc(30vh);
               margin: auto;
   
   
@@ -463,8 +460,8 @@
               width: 90vw;
               margin: auto;
               margin-top: 4vh;
-              height: calc(100% - 300px);
-  
+              min-height: calc(30vh);
+            
   
               h1 {
                 font-size: 17px;
@@ -688,7 +685,7 @@
             }
   
             a {
-              font-size: 0.8vw;
+              font-size:8px;
               transition: 0.3s;
               display: block;
               margin-bottom: 2vh;
