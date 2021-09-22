@@ -153,6 +153,9 @@
     min-height: calc(30vh);
     margin: auto;
   }
+  body .top .hero .theme .matome .texts_1 br {
+    display: none;
+  }
   body .top .hero .theme .matome .texts_1 h1 {
     font-size: 17px;
     text-align: left;
