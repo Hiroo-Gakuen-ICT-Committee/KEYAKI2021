@@ -69,11 +69,10 @@ body {
 
           margin-top: 4vh;
           margin-bottom: 4vh;
-
+          padding-top: 3vh;
           h1 {
             font-size: 1.6vw;
             text-align: left;
-            margin-bottom: 1vh;
             font-family: source-han-sans-japanese,
               sans-serif;
             font-weight: 700;
@@ -90,11 +89,13 @@ body {
 
             .small {
               color: #000;
-              font-size: 1.1vw;
+              font-size: 1vw;
             }
 
             img {
-              height: 5vw;
+              height: 4vw;
+              margin-left: 1vh;
+              margin-bottom: 2vh;
             }
           }
 

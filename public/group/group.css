@@ -74,12 +74,12 @@ body .top .hero .all .texts_1 {
   margin: 2vw;
   margin-top: 4vh;
   margin-bottom: 4vh;
+  padding-top: 3vh;
 }
 
 body .top .hero .all .texts_1 h1 {
   font-size: 1.6vw;
   text-align: left;
-  margin-bottom: 1vh;
   font-family: source-han-sans-japanese, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -102,11 +102,13 @@ body .top .hero .all .texts_1 h1 span {
 
 body .top .hero .all .texts_1 h1 .small {
   color: #000;
-  font-size: 1.1vw;
+  font-size: 1vw;
 }
 
 body .top .hero .all .texts_1 h1 img {
-  height: 5vw;
+  height: 4vw;
+  margin-left: 1vh;
+  margin-bottom: 2vh;
 }
 
 body .top .hero .all .texts_1 .text_img {
