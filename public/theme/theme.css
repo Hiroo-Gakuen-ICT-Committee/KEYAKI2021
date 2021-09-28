@@ -88,6 +88,7 @@ body .top .hero .item h3 {
 }
 
 body .top .hero .item img {
-  width: 50vw;
+  margin-top: 10vh;
+  width: 54vw;
 }
 /*# sourceMappingURL=theme.css.map */

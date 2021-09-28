@@ -44,4 +44,17 @@ body .top .hero h2 {
   font-size: 0.8vw;
   line-height: 0.3vw;
 }
+
+body .top .hero .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .top .hero .all img {
+  width: 30vw;
+}
 /*# sourceMappingURL=time.css.map */
