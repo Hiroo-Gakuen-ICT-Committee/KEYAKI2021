@@ -11,10 +11,13 @@
   <link rel="stylesheet" href="public/live/live3.css">
   <link rel="stylesheet" href="public/live/live2.css">
   <link rel="stylesheet" href="public/live/live.css">
-  <link rel="stylesheet" href="/public/live/live4.css">
+  <link rel="stylesheet" href="public/live/live4.css">
+
 
 
   <!--以下Js読み込み-->
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="https://unpkg.com/scrollreveal"></script>
@@ -51,6 +54,15 @@
   </script>
   <!--ファビコン設定-->
   <link rel="icon" type="image/x-icon" href="public/images/hg.svg">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-22REEQTH5D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-22REEQTH5D');
+</script>
 </head>
 
 <body class="true">
@@ -68,43 +80,39 @@
           <li class="gnav__menu__item"><a href="/theme.html">テーマについて</a></li>
           <li class="gnav__menu__item"><a href="/pamphlet.html">パンフレット</a></li>
           <li class="gnav__menu__item"><a href="/time.html">タイムテーブル</a></li>
-
           <li class="gnav__menu__item"><a href="/group.html">団体紹介</a></li>
           <li class="gnav__menu__item"><a href="/movie3.html">短編動画集</a></li>
 
           <li class="gnav__menu__item"><a href="/operation.html">運営紹介</a></li>
-          <li class="gnav__menu__item this live"><a href="/live.html">LIVE配信</a></li>
-
+          <li class="gnav__menu__item live this"><a href="/live.html">LIVE配信</a></li>
           <li class="gnav__menu__item"><a href="/movie.html">クラス表現</a></li>
-          <li class="gnav__menu__item"><a href="/movie2.html">部活発表動画</a></li>
+          <li class="gnav__menu__item "><a href="/movie2.html">部活発表動画</a></li>
+
+
 
         </ul>
         <!--gnav-wrap-->
     </nav>
     <div class="hero">
       <h1>アリーナ配信</h1>
-      <h4 class="start">7時より配信を開始します。</h4>
       <div class="all">
 
         <div class="texts_1 left">
-          <h1>Live配信<img src="public/live/images/Live_ピクトグラム.png" alt="">
-          </h1>
-          <div style="padding:56.25% 0 0 0;position:relative;"><iframe
-              src="https://player.vimeo.com/video/600051909?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=240ddd0118"
-              frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-              style="position:absolute;top:0;left:0;width:100%;height:100%;"
-              title="Countdown_1920x1080_24P_Rev05_H264_422"></iframe></div>
-          <script src="https://player.vimeo.com/api/player.js"></script>
+          <h1>アリーナ配信<img src="/public/live/images/Live.png"
+            alt=""></h1>
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/614173014?h=ba80a9b3e1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="soon"></iframe></div>
+          
 
         </div>
 
       </div>
     </div>
-    <script src="public/live/live.js"></script>
-    <script src="public/all.js"></script>
-    <script src="public/all2.js"></script>
+    <script src="/public/live/live.js"></script>
+    <script src="/public/all.js"></script>
+    <script src="/public/all2.js"></script>
   </div>
   <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+  <script src="https://player.vimeo.com/api/player.js"></script>
 </body>
 
 </html>

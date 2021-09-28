@@ -74,7 +74,6 @@
     border-radius: 16px;
     width: 84vw;
     text-align: right;
-    min-height: calc(35vh);
     margin: 2vw;
     margin-top: 4vh;
   }
@@ -123,4 +122,3 @@
     line-height: 2.8vh;
   }
 }
-/*# sourceMappingURL=live4.css.map */
