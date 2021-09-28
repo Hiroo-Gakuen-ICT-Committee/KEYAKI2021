@@ -10,7 +10,7 @@ $('.menu').on('click', function () {
 
 
 
-var pack_a = "E58FA4E5B79D"
+var pack_a = "neko"
 
 
 if (Cookies.get('pw')=="ok") {
